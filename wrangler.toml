@@ -1,6 +1,7 @@
 name = "gachawikiapi"
 compatibility_date = "2024-01-01"
 main = "build/worker/shim.mjs"
+workers_dev = true
 
 routes = [{ pattern = "api.gachawiki.info/*", zone_name = "gachawiki.info" }]
 
