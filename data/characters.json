@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Goku",
+    "rarity": 5,
+    "element": "Fire"
+  },
+  {
+    "id": 2,
+    "name": "Vegeta",
+    "rarity": 5,
+    "element": "Fire"
+  },
+  {
+    "id": 3,
+    "name": "Piccolo",
+    "rarity": 4,
+    "element": "Nature"
+  }
+]
