@@ -1,7 +1,7 @@
 // there were our types for our gacha wiki !
 // the data !
 
-use serde::{Serialize, Deserialize};
+use serde::{Deserialize, Serialize};
 
 #[derive(Serialize, Deserialize)]
 pub struct Character {
@@ -9,11 +9,4 @@ pub struct Character {
     pub name: String,
     pub rarity: u8,
     pub element: String,
-}
-
-#[derive(Serialize, Deserialize)]
-pub struct Item {
-    pub id: u32,
-    pub name: String,
-    pub item_type: String,
 }

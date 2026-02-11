@@ -4,7 +4,9 @@
       "Bash(cmd:*)",
       "Bash(gh auth:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)",
+      "mcp__web-search-prime__webSearchPrime"
     ]
   }
 }
