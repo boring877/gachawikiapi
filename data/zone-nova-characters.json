@@ -1,0 +1,4757 @@
+[
+  {
+    "id": 1,
+    "name": "Afrodite",
+    "slug": "afrodite",
+    "rarity": "SSR",
+    "element": "Holy",
+    "class": "Warrior",
+    "role": "DPS",
+    "faction": "Odius",
+    "tags": [
+      "Crit Rate",
+      "Attack Speed",
+      "Normal Attack",
+      "Melee"
+    ],
+    "image": "/images/games/zone-nova/characters/Afrodite.jpg",
+    "detailUrl": "/guides/zone-nova/characters/afrodite",
+    "stats": {
+      "hp": 8033,
+      "attack": 1305,
+      "defense": 530,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Love Fist (爱神之拳)",
+        "description": "Deals 120% attack power as holy damage to designated enemy unit."
+      },
+      "auto": {
+        "name": "Charm Impact (魅惑冲拳)",
+        "cooldown": "8.0s",
+        "description": "Automatically deals 816% attack power as holy damage to designated enemy. Increases self attack speed by 58%."
+      },
+      "ultimate": {
+        "name": "Love and Beauty Waltz (爱与美之圆舞曲)",
+        "energyCost": "8",
+        "description": "Normal Ultimate: Deals 1800% attack power as holy damage to designated enemy. Enhanced Ultimate (after 10 normal attacks): Deals 2160% attack power as holy damage to designated enemy, recovers 2 energy at the end, Counts as a basic-attack hit for any on-hit or combo effects."
+      },
+      "passive": {
+        "name": "Beautiful Kill (美丽杀意)",
+        "description": "When HP is higher then 50%: +48 % Crit Rate on all outgoing damage. When HP is lower then 50%: +96 % Defense when taking damage."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Self attack power increased by 10%. At battle start: For every 500 attack power, increase self holy damage by 5% (maximum 6 times). Maximum scaling: 30% holy damage boost at 3,000+ attack power.",
+      "requirements": {
+        "faction": "Odius",
+        "element": "Holy"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "When you using auto skill (Self) it counts as 4 extra basic-attack hits toward the Enhanced Ultimate counter."
+      },
+      {
+        "level": 2,
+        "effect": "When using ultimate or auto skill: Damage taken reduced by 10%"
+      },
+      {
+        "level": 3,
+        "effect": "[Skills] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "Normal attack damage increased by 35%"
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "[Enhanced Ultimate] ignores 20% Holy resistance"
+      }
+    ],
+    "memoryCard": {
+      "name": "Secret Garden",
+      "image": "Afroditecard",
+      "stats": {
+        "hp": "6,400",
+        "attack": "784",
+        "defense": "318"
+      },
+      "effects": [
+        "Attack power increased by 40%",
+        "If the equipped units Ultimate costs higher then 8 Energy and used ultimate : Damage increased by 40% for 10 seconds"
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "name": "Anubis",
+    "slug": "anubis",
+    "rarity": "SSR",
+    "element": "Chaos",
+    "class": "Healer",
+    "role": "Healer",
+    "faction": "Chemic",
+    "tags": [
+      "Healing",
+      "Ranged",
+      "Damage Reduction",
+      "DOT"
+    ],
+    "image": "/images/games/zone-nova/characters/Anubis.jpg",
+    "detailUrl": "/guides/zone-nova/characters/anubis",
+    "stats": {
+      "hp": 9180,
+      "attack": 1004,
+      "defense": 729,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Underworld Touch",
+        "chineseName": "冥神之触",
+        "level": "10+4",
+        "cooldown": "2.0s",
+        "description": "Deals 120% attack power Chaos damage to designated enemy unit."
+      },
+      "auto": {
+        "name": "Divine Punishment Rain",
+        "chineseName": "天罚之雨",
+        "level": "10+4",
+        "cooldown": "8.0s",
+        "description": "Call a meteor on the target and all enemies within 2 m, 96 % ATK as Chaos damage on impact. adding 1 layer [Nightmare]. [Nightmare]: Every 3 s deals 5.6 % ATK as Chaos damage per stack, Caps at 10 stacks (total 56 % ATK per tick at max)."
+      },
+      "ultimate": {
+        "name": "Destined Reversal",
+        "chineseName": "命定逆转",
+        "level": "10+4",
+        "cooldown": "1.0s",
+        "energyCost": "4",
+        "description": "Heal lowest-HP ally for 112.8 % ATK(HealerATK) + 668 HP. Enhancement: Heal all allies for 112.8 % ATK + 668 HP and give them 10 % damage reduction for 10 s."
+      },
+      "passive": {
+        "name": "Soul Siphon",
+        "chineseName": "灵魂虹吸",
+        "level": "10+4",
+        "description": "When using auto skill (only you) to attack targets with (20) with dupe 1 (15+) layers of DOT, heals entire team self attack power 97.2%+445 HP and Immediately gain one Empowered Ultimate charge, usable within 8 s."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "chineseName": "组合技",
+      "level": "1",
+      "description": "Passive: Self attack power +10%. Battle Start: Every 500 attack power increases self healing by 5%, max 6 times.",
+      "requirements": {
+        "faction": "Chemic",
+        "element": "Chaos",
+        "condition": "2 [Chemic] colored or 2 [Chaos] colored characters"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Passive skill conditions reduced from 20 layers to 15 layers"
+      },
+      {
+        "level": 2,
+        "effect": "Every heal cast by Anubis (even from passives or ultimates) now applies a 5-second buff to the healed ally Incoming damage –10 % , Each new heal refreshes the 5-second duration."
+      },
+      {
+        "level": 3,
+        "effect": "[Skills] and [Normal Attack] level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "Healing amount increased by 37.5%"
+      },
+      {
+        "level": 5,
+        "effect": "[Required Skills] and [Passive] level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "Auto Skill will summon additional meteors for consecutive attacks"
+      }
+    ],
+    "memoryCard": {
+      "name": "Midnight Work",
+      "chineseName": "熬夜工作",
+      "image": "Anubiscard",
+      "level": "80/80",
+      "stats": {
+        "hp": "6,000",
+        "attack": "800",
+        "defense": "600"
+      },
+      "effects": [
+        "Healing amount +50%, each healing gives target +40% attack power for 3 seconds"
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "name": "Apep",
+    "slug": "apep",
+    "rarity": "SSR",
+    "element": "Wind",
+    "class": "Warrior",
+    "role": "DPS",
+    "faction": "Chemic",
+    "tags": [
+      "Defense Scaling",
+      "Shield",
+      "Healing",
+      "HP Scaling"
+    ],
+    "image": "/images/games/zone-nova/characters/Apep.jpg",
+    "detailUrl": "/guides/zone-nova/characters/apep",
+    "stats": {
+      "hp": 10520,
+      "attack": 696,
+      "defense": 1315,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Gang Wind Strike",
+        "cooldown": "2.0s",
+        "description": "Deals wind damage equal to 120% of defense to designated enemy single unit."
+      },
+      "auto": {
+        "name": "Wind Gang Wall",
+        "cooldown": "5.0s",
+        "description": "Grants self a shield equal to 120% of defense."
+      },
+      "ultimate": {
+        "name": "Wind Blessing",
+        "energyCost": "2",
+        "cooldown": "1.0s",
+        "description": "When HP is below 50%, deals wind damage equal to 120% of defense to the front square target and recovers health equal to 120% of own defense. When HP is above 50%, can enhance the skill to deal wind damage equal to 120% of defense to all targets in a 3×3 area around the front square target, and deals wind damage equal to 240% of defense."
+      },
+      "passive": {
+        "name": "Wind Wisdom",
+        "description": "Before entering battle, every 1000 defense can increase max HP cap by 4000, max increase 20000 HP cap. When Shielded by the skill Wind Gang Wall, damage taken reduced by 24%, damage dealt increased by 48%."
+      }
+    },
+    "teamSkill": {
+      "name": "Wind Chemic Alliance",
+      "description": "Own defense increased by 15%. At the start of battle, every 500 defense can reduce damage taken by 1.5%, stacking up to 6 times.",
+      "requirements": {
+        "faction": "Chemic",
+        "element": "Wind",
+        "alternativeConditions": "Team contains 2 Chemic characters or 2 Wind characters"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Each time normal attack deals damage, increases defense by 5%, lasting 10 seconds, stacking up to 30%."
+      },
+      {
+        "level": 2,
+        "effect": "Casting enhanced ultimate skill also has recovery effect, recovery amount equal to the ultimate skill."
+      },
+      {
+        "level": 3,
+        "effect": "[Basic Attack], [Skill], [Ultimate Skill], and [Passive] levels and level cap +2."
+      },
+      {
+        "level": 4,
+        "effect": "Defense increased by 45%."
+      },
+      {
+        "level": 5,
+        "effect": "[Basic Attack], [Skill], [Ultimate Skill], and [Passive] levels and level cap +2."
+      },
+      {
+        "level": 6,
+        "effect": "All resistance increased by 10%, wind resistance additionally increased by 10%. All damage dealt penetrates 10% wind resistance."
+      }
+    ],
+    "memoryCard": {
+      "name": "Wrong Appearance Timing",
+      "image": "Apepcard",
+      "stats": {
+        "hp": "8,800",
+        "attack": "480",
+        "defense": "690"
+      },
+      "effects": [
+        "Defense increased by 64%",
+        "When HP is above 50%, after the wearer attacks, recover 2% max HP",
+        "When HP is above 50%, damage taken reduced by 10%, damage dealt increased by 40%"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Apollo",
+    "slug": "apollo",
+    "rarity": "SSR",
+    "element": "Fire",
+    "class": "Buffer",
+    "role": "Buffer",
+    "faction": "Odius",
+    "tags": [
+      "Ranged",
+      "Extra Attack",
+      "Buff",
+      "Energy"
+    ],
+    "image": "/images/games/zone-nova/characters/Apollo.jpg",
+    "detailUrl": "/guides/zone-nova/characters/apollo",
+    "stats": {
+      "hp": 9564,
+      "attack": 1004,
+      "defense": 672,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Day Brilliance Flash",
+        "description": "Deals fire damage equal to 120% of Attack to designated enemy."
+      },
+      "auto": {
+        "name": "Divine Music Accompaniment",
+        "cooldown": "5.0s",
+        "description": "Allied units gain 24% damage increase. [Type of Attack Called: Extra attacks] damage additionally increases by 36%."
+      },
+      "ultimate": {
+        "name": "Day Brilliance Chanting",
+        "energyCost": "8",
+        "description": "Enters [Day Brilliance] state for 10 seconds. During transformation (State): Allied attack power increases by 120%, and Apollo launches an extra strike dealing 360 % ATK as fire damage when teammate use an ultimate, it will have 100% crit rate and going be counted as Extra damage type. (Rate limit: 1 Extra damage per ally every 5 s.)"
+      },
+      "passive": {
+        "name": "Brilliant Verdict",
+        "description": "Each auto skill use (Self): All allies gain 1 layer [Brilliant]. [Brilliant] Effect: +2.4% critical rate and +4.8% critical damage per layer. Maximum 10 layers (24% crit rate + 48% crit damage at full stacks). Extra Damage Synergy: Allied Extra Damage attacks grant additional [Brilliant] layers and Apollo gains 1 stack of Radiance System: gains [Radiance] Every 4 stacks +1 Energy ."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Battle start: Team damage increases by 10%. Every 500 attack power adds 5% team damage, maximum 6 times (30% max).",
+      "requirements": {
+        "faction": "Odius",
+        "element": "Fire"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Allied characters dealing [Extra Attack] can additionally gain add [Brilliant] to Everyone. Each character can trigger once within 1 second maximum."
+      },
+      {
+        "level": 2,
+        "effect": "During [Day Brilliance] state, damage taken reduced by 50%."
+      },
+      {
+        "level": 3,
+        "effect": "[Skill] and [Normal Attack] level and level cap +4."
+      },
+      {
+        "level": 4,
+        "effect": "During [Day Brilliance] state, allied characters gain 10% elemental resistance penetration."
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4."
+      },
+      {
+        "level": 6,
+        "effect": "During [Day Brilliance] state, Apollo's [Extra Attack] additionally gains 50% critical damage."
+      }
+    ],
+    "memoryCard": {
+      "name": "The Loneliest Moment",
+      "image": "Apollocard",
+      "stats": {
+        "hp": "6,000",
+        "attack": "600",
+        "defense": "600"
+      },
+      "effects": [
+        "Battle start: All allied characters' damage increases by 40%, Extra Attack damage additionally increases by 40%",
+        "When equipped character releases ultimate That cost higher then 8: All allied characters' energy efficiency increases by 100% for 10 seconds"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Artemis",
+    "slug": "artemis",
+    "rarity": "SSR",
+    "element": "Wind",
+    "class": "Warrior",
+    "role": "DPS",
+    "faction": "Odius",
+    "tags": [
+      "Melee",
+      "Healing",
+      "HP Consume"
+    ],
+    "image": "/images/games/zone-nova/characters/Artemis.jpg",
+    "detailUrl": "/guides/zone-nova/characters/artemis",
+    "stats": {
+      "hp": 8033,
+      "attack": 1461,
+      "defense": 530,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Moon Rising Fist",
+        "description": "Deals 120% attack power as wind damage to designated enemy unit."
+      },
+      "auto": {
+        "name": "Moon Ancient Boxing",
+        "cooldown": "5.0s",
+        "description": "Automatically deals 240% attack power as wind damage to designated enemy and nearby enemies. Each hit restores 10% max HP."
+      },
+      "ultimate": {
+        "name": "Silver Moon Judgment",
+        "energyCost": "3",
+        "description": "Consumes 50% current HP. Teleports in front of designated enemy. Deals 264% attack power as wind damage to target and nearby enemies."
+      },
+      "passive": {
+        "name": "Moon Shadow Hunt",
+        "description": "When HP is below 50%: All attacks deal additional 60% attack power as wind damage."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Self max HP increased by 10%. At battle start: For every 4,000 max HP, increase self attack power by 5% (maximum 6 times). Maximum scaling: 30% attack power boost at 24,000+ max HP.",
+      "requirements": {
+        "faction": "Odius",
+        "element": "Wind"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Attack power increased by 20%."
+      },
+      {
+        "level": 2,
+        "effect": "When HP is below 50%: Damage taken reduced by 10%."
+      },
+      {
+        "level": 3,
+        "effect": "[Skills] and [Normal Attack] level and level cap +4."
+      },
+      {
+        "level": 4,
+        "effect": "Wind damage increased by 35%."
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4."
+      },
+      {
+        "level": 6,
+        "effect": "When HP is below 50%: All damage ignores 20% elemental resistance."
+      }
+    ],
+    "memoryCard": {
+      "name": "The World Seems to Have Stopped",
+      "image": "Artemiscard",
+      "stats": {
+        "hp": "5,040",
+        "attack": "780",
+        "defense": "474"
+      },
+      "effects": [
+        "Attack power increased by 40%",
+        "When HP is below 50%: All damage increased by 40%"
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "name": "Athena",
+    "slug": "athena",
+    "rarity": "SSR",
+    "element": "Wind",
+    "class": "Buffer",
+    "role": "Buffer",
+    "faction": "Odius",
+    "tags": [
+      "Ranged",
+      "Cooldown Reduction",
+      "Normal Attack",
+      "Crit Rate",
+      "Energy",
+      "Damage Reduction"
+    ],
+    "image": "/images/games/zone-nova/characters/Athena.jpg",
+    "detailUrl": "/guides/zone-nova/characters/athena",
+    "stats": {
+      "hp": 9564,
+      "attack": 1004,
+      "defense": 672,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Shadowless Snipe (无影狙击)",
+        "description": "Deals 120% attack power wind damage to designated enemy unit. 1.0s cooldown."
+      },
+      "auto": {
+        "name": "Military Command (军神号令)",
+        "cooldown": "5.0s",
+        "description": "Attacks designated enemy unit 3 times, dealing 3×120% attack power wind damage. Total 360% attack power damage output."
+      },
+      "ultimate": {
+        "name": "Athena's Aegis (雅典娜的埃癸斯)",
+        "energyCost": "3",
+        "description": "Immediately gains 3 layers [Aegis]. When having [Aegis], normal attacks become full auto mode, can continuously fire Enhanced bullets during the period. Each layer [Aegis] can fire 12 Enhanced bullets. After interrupting normal attack, need to consume 1 layer [Aegis] again to reload. Each Enhanced bullet deals 60% attack power wind damage. Every 5 Enhanced bullet hits on targets, all friendly characters gain +2.4% crit rate and +4.6% normal attack damage, max 10 stacks, lasts 10 seconds"
+      },
+      "passive": {
+        "name": "Divine Combat Mastery (被动)",
+        "description": "All damage from Athena is considered normal attack damage. Every 5 normal attack damage dealt by Athena, all friendly characters gain +4.8% attack speed and skill cooldown reduced by 2.4%, max 10 stacks, lasts 10 seconds. Every 10 normal attack damage dealt by Athena, Athena gains 1 layer [Typical]. When other friendly characters deal normal attack damage, Athena gains 1 layer [Typical], each character can trigger once per second maximum. Every 10 layers [Typical] Athena gains, all team energy +1 point"
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Battle start: All team Damage increases by 10%. For every 500 attack power, all team Damage additionally +5% (max 6 times, total +40% Damage).",
+      "requirements": {
+        "faction": "Odius",
+        "element": "Wind"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "After any allied characters deal basic attack damage, Athena will additionally deal 50% attack power Wind damage to that target. This damage cannot critically hit, and each character can trigger this effect at most once per second."
+      },
+      {
+        "level": 2,
+        "effect": "Using ultimate skill gains 6 layers [Aegis] instead of 3"
+      },
+      {
+        "level": 3,
+        "effect": "[Normal Attack], [Skill], [Ultimate] and [Passive] level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "While Athena has [Aegis] active: All allies take 10% reduced damage, Warriors and Rogues gain an additional 10% damage reduction (total 20%)."
+      },
+      {
+        "level": 5,
+        "effect": "[Normal Attack], [Skill], [Ultimate] and [Passive] level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "Athena's Enhanced bullets deal double damage (120% attack power per bullet)"
+      }
+    ],
+    "memoryCard": {
+      "name": "Embarrassing Pattern (尴尬模样)",
+      "image": "Athenacard",
+      "stats": {
+        "hp": "6,000",
+        "attack": "600",
+        "defense": "600"
+      },
+      "effects": [
+        "After battle start: All allies damage +40%, normal attack damage +40%",
+        "When equipped character deals 5 normal attack damage: All team attack power +40% for 5 seconds"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Arthur",
+    "slug": "arthur",
+    "rarity": "SSR",
+    "element": "Holy",
+    "class": "Mage",
+    "role": "DPS",
+    "faction": "Avalon",
+    "tags": [
+      "Melee",
+      "Crit Rate",
+      "Crit Damage",
+      "Buff"
+    ],
+    "image": "/images/games/zone-nova/characters/Arthur.jpg",
+    "detailUrl": "/guides/zone-nova/characters/arthur",
+    "stats": {
+      "hp": 8033,
+      "attack": 1305,
+      "defense": 530,
+      "energyRecovery": 0.25,
+      "critRate": 15,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Oath Victory Sword",
+        "description": "Deals holy damage equal to 120% of Attack to designated enemy."
+      },
+      "auto": {
+        "name": "King's Sword",
+        "cooldown": "5.0s",
+        "description": "Deal 240% attack power as holy damage to front enemy unit. For each target damaged, critical damage increases by 12%, maximum 4 stacks, lasts 5 seconds"
+      },
+      "ultimate": {
+        "name": "Imperial Sacred Judgment",
+        "energyCost": "6",
+        "description": "Deals holy damage equal to 600% of Attack to frontal enemy units. After a Buffer unit uses their Ultimate, you can trigger an Enhanced Ultimate within 5 s. Enhanced Ultimate: ATK +36 % for 10 s and deal 720 % ATK Holy damage to enemies in front. "
+      },
+      "passive": {
+        "name": "Royal Dominance",
+        "description": "Each ultimate use: Increases attack by 12% and defense by 5.6%. Maximum 3 layers, lasts 10 seconds. Full Stack Potential: 36% attack + 16.8% defense."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Self critical rate increases by 7.5%. Battle start: Every 15% critical rate adds 5% holy damage, maximum 6 times. Maximum Potential: 30% holy damage increase with optimal critical rate.",
+      "requirements": {
+        "faction": "Avalon",
+        "element": "Holy"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Critical rate increases by 15%."
+      },
+      {
+        "level": 2,
+        "effect": "When activating [Enhanced Ultimate], critical hit damage increases by 30% ."
+      },
+      {
+        "level": 3,
+        "effect": "[Skill] and [Normal Attack] level and level cap +4."
+      },
+      {
+        "level": 4,
+        "effect": "Ultimate damage increases by 35%."
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4."
+      },
+      {
+        "level": 6,
+        "effect": "[Enhanced Ultimate] ignores target's 20% elemental resistance."
+      }
+    ],
+    "memoryCard": {
+      "name": "Night of Bloody Storm",
+      "image": "Night-of-Bloody-Storm",
+      "stats": {
+        "hp": "5,040",
+        "attack": "780",
+        "defense": "474"
+      },
+      "effects": [
+        "Attack power increased by 40%",
+        "After an ally buffers uses their ultimate skill, this character's ultimate skill damage increases by 40% for 5 seconds",
+        "Total Potential: 40% base attack + 40% conditional ultimate damage boost"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "name": "Bastet",
+    "slug": "bastet",
+    "rarity": "SR",
+    "element": "Wind",
+    "class": "Mage",
+    "role": "DPS",
+    "faction": "Chemic",
+    "tags": [
+      "Ranged",
+      "Normal Attack",
+      "AOE"
+    ],
+    "image": "/images/games/zone-nova/characters/Bastet.jpg",
+    "detailUrl": "/guides/zone-nova/characters/bastet",
+    "stats": {
+      "hp": 6694,
+      "attack": 1088,
+      "defense": 442,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Cat Shadow Arrow",
+        "description": "Deals wind damage equal to 120% of Attack to designated enemy unit."
+      },
+      "auto": {
+        "name": "Cat! Bomb!",
+        "cooldown": "5.0s",
+        "description": "Deals wind damage equal to 72% of Attack to designated enemy and surrounding 4-meter range."
+      },
+      "ultimate": {
+        "name": "Cat Bombing!",
+        "energyCost": "5",
+        "description": "Deals wind damage equal to 120% of Attack to designated enemy and surrounding 4-meter range."
+      },
+      "passive": {
+        "name": "Cat Frenzy",
+        "description": "Every 5 normal attacks, the next normal attack deals wind damage equal to 120% of Attack to designated enemy and surrounding 4-meter range. With Awakening 2: Reduces trigger requirement from 5 to 4 normal attacks."
+      }
+    },
+    "teamSkill": {
+      "name": "Storm Synergy",
+      "description": "Self wind damage increases by 20%.",
+      "requirements": {
+        "faction": "Chemic",
+        "element": "Wind"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "When the target's health is greater than 50%, all damage dealt by self increases by 20%."
+      },
+      {
+        "level": 2,
+        "effect": "Passive enhancement: Required normal attack count changes from 5 to 4."
+      },
+      {
+        "level": 3,
+        "effect": "[Skill] and [Normal Attack] level and level cap +4."
+      },
+      {
+        "level": 4,
+        "effect": "Ultimate damage increases by 20%."
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4."
+      },
+      {
+        "level": 6,
+        "effect": "After using ultimate: Attack increases by 20% for 5 seconds."
+      }
+    ],
+    "memoryCard": {
+      "name": "Annoying Classroom",
+      "image": "Bastetcard",
+      "stats": {
+        "hp": "4,200",
+        "attack": "650",
+        "defense": "395"
+      },
+      "effects": [
+        "When releasing ultimate skill: For each enemy on the field, ultimate skill damage increases by 12%, up to 5 stacks, lasting 5 seconds maximum bonus of 60% (12% × 5 stacks)"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "name": "Belphegar",
+    "slug": "belphegar",
+    "rarity": "SR",
+    "element": "Chaos",
+    "class": "Debuffer",
+    "role": "Debuffer",
+    "faction": "Bicta Tower",
+    "tags": [
+      "Ranged",
+      "Debuff",
+      "Cooldown Increase",
+      "Ultimate Block",
+      "AOE"
+    ],
+    "image": "/images/games/zone-nova/characters/belphegar.jpg",
+    "detailUrl": "/guides/zone-nova/characters/belphegar",
+    "stats": {
+      "hp": 7970,
+      "attack": 837,
+      "defense": 560,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Fatigue Bombardment",
+        "description": "Deals chaos damage equal to 120% of Attack to designated enemy unit."
+      },
+      "auto": {
+        "name": "Power of the Blanket",
+        "cooldown": "5.0s",
+        "description": "Attack the enemy target with the highest attack power, dealing 120% attack power chaos damage and reducing their critical rate and critical damage by 24%, lasting 10 seconds."
+      },
+      "ultimate": {
+        "name": "Drowsy Sleep",
+        "energyCost": "5",
+        "description": " Deal 120% attack power chaos damage to all targets and increase targets auto skill cooldown time by 58%, lasting 10 seconds"
+      },
+      "passive": {
+        "name": "Sleepy Aura",
+        "description": "When dealing damage with skills or ultimate skills, additionally applies [Wrath], reducing target's attack speed by 58%, lasting 10 seconds."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Own damage dealt increases by 20%.",
+      "requirements": {
+        "faction": "Bicta Tower",
+        "element": "Chaos"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "When using auto skills to attack targets that have negative effects on them, skill damage increases by 30%"
+      },
+      {
+        "level": 2,
+        "effect": "Basic attacks additionally deal 20% attack power chaos damage."
+      },
+      {
+        "level": 3,
+        "effect": "[Skill] and [Normal Attack] level and level cap +4."
+      },
+      {
+        "level": 4,
+        "effect": "Attack power increases by 20%."
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4."
+      },
+      {
+        "level": 6,
+        "effect": "Ultimate skill can additionally reduce the targets ultimate skill damage by 20%, lasting 5 seconds."
+      }
+    ],
+    "memoryCard": {
+      "name": "Sleepy Guardian",
+      "image": "Belphegarcard",
+      "stats": {
+        "hp": "5,200",
+        "attack": "420",
+        "defense": "380"
+      },
+      "effects": [
+        " Ultimate skill can reduce targets energy regen by 18%"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "name": "Chiya",
+    "slug": "chiya",
+    "rarity": "SSR",
+    "element": "Ice",
+    "class": "Rogue",
+    "role": "DPS",
+    "faction": "Sapphire",
+    "tags": [
+      "Melee",
+      "Crit Rate",
+      "Crit Damage",
+      "Enhanced Ultimate",
+      "Attack Speed"
+    ],
+    "image": "/images/games/zone-nova/characters/Chiya.jpg",
+    "detailUrl": "/guides/zone-nova/characters/chiya",
+    "stats": {
+      "hp": 8033,
+      "attack": 1305,
+      "defense": 530,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Heavy Hammer Strike",
+        "description": "Deals ice damage equal to 120% of Attack to designated enemy unit."
+      },
+      "auto": {
+        "name": "Cold Steel Combo",
+        "cooldown": "5.0s",
+        "description": "Deals ice damage equal to 480% of Attack to enemy unit."
+      },
+      "ultimate": {
+        "name": "Society Master's Fist",
+        "energyCost": "3",
+        "description": "Rush towards target, dealing 600% attack power ice damage [Enhanced Ultimate Skill]: Gain 100% critical rate, rush towards target dealing 840% attack power ice damage"
+      },
+      "passive": {
+        "name": "Beam Assist Framework",
+        "description": "After killing an enemy, enter [Focus] state for 10 seconds. All attacks additionally deal 36% attack power ice damage, and gain one [Enhanced Ultimate Skill]"
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Self attack power increased by 10%. At battle start, every 500 attack power can increase self critical damage by 7.5%, maximum 6 times (up to 45% critical damage).",
+      "requirements": {
+        "faction": "Sapphire",
+        "element": "Ice"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "At battle start, immediately gains one [Enhanced Ultimate Skill]."
+      },
+      {
+        "level": 2,
+        "effect": "During [Focus] state, attack speed increased by 50%."
+      },
+      {
+        "level": 3,
+        "effect": "[Skill] and [Normal Attack] level and level cap +4."
+      },
+      {
+        "level": 4,
+        "effect": "Ice damage increased by 30%."
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4."
+      },
+      {
+        "level": 6,
+        "effect": "After using normal ultimate skill, gain one Enhanced Ultimate Skill, Ultimate skill damage increases by 30%"
+      }
+    ],
+    "memoryCard": {
+      "name": "Lonely Dark Deep Night",
+      "image": "Chiyacard",
+      "stats": {
+        "hp": "5,040",
+        "attack": "780",
+        "defense": "474"
+      },
+      "effects": [
+        "Critical damage increases by 60%. Attack power increases by 10% After the equipment wearer kills an enemy stacking up to 4 times,up to 40% attack power increase and stay until the end of the battle"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "name": "Cleopatra",
+    "slug": "cleopatra",
+    "rarity": "SSR",
+    "element": "Chaos",
+    "class": "Mage",
+    "role": "DPS",
+    "faction": "Chemic",
+    "tags": [
+      "Ranged",
+      "DOT",
+      "AOE",
+      "Penetration",
+      "Energy"
+    ],
+    "image": "/images/games/zone-nova/characters/Cleopatra.jpg",
+    "detailUrl": "/guides/zone-nova/characters/cleopatra",
+    "stats": {
+      "hp": 8033,
+      "attack": 1461,
+      "defense": 530,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Mad Shadow Erosion",
+        "description": "Deals chaos damage equal to 120% of Attack to designated enemy"
+      },
+      "auto": {
+        "name": "Praise of Heretic Sect",
+        "cooldown": "5.0s",
+        "description": "Deal 168% attack power chaos damage to target and surrounding area within 4 meters, and apply one stack of [Shifting Sorrow]"
+      },
+      "ultimate": {
+        "name": "Cultural Authority - Supreme Rule",
+        "energyCost": "8",
+        "description": "After channeling for 4 seconds, deal 480% attack power chaos damage to all targets If targets already have one stack of continuous damage, additionally deal 48% attack power chaos damage, up to 20 times Ultimate skill damage is considered continuous damage type"
+      },
+      "passive": {
+        "name": "Filthy Whispers",
+        "description": "Every time a auto skill is cast, gain 2 stacks of [Shifting], maximum can accumulate to 5 stacks When allies use ultimate skills and deal damage, can consume [Shifting] to additionally deal 120% attack power chaos damage to their target and apply one stack of [Shifting Sorrow] to hit targets. Area attacks can trigger multiple marks simultaneously. [Shifting Sorrow]: Every 3 seconds deal 19.2% attack power chaos damage, maximum can stack to 10 times"
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Self attack power increases by 10%. Battle start: Every 500 attack adds 3% penetration rate, maximum 6 times. Maximum penetration bonus: 18% (at 3,000+ attack)",
+      "requirements": {
+        "faction": "Chemic",
+        "element": "Chaos"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Attack power increases by 20%"
+      },
+      {
+        "level": 2,
+        "effect": "When casting ultimate skill, damage taken decreases by 20% After casting ultimate skill, recover 2 energy points"
+      },
+      {
+        "level": 3,
+        "effect": "[Skill] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "[Continuous damage] damage increases by 35%"
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "Continuous damage ignores 20% chaos resistance"
+      }
+    ],
+    "memoryCard": {
+      "name": "Revolutionary Restructuring",
+      "image": "Cleopatracard",
+      "stats": {
+        "hp": "5,040",
+        "attack": "780",
+        "defense": "474"
+      },
+      "effects": [
+        "Attack power increases by 40%. Apply one stack of [Erosion] After skills hit targets. [Erosion]: Every 1 second deal 15% chaos damage, maximum can stack to 5 times, lasting 10 seconds"
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "name": "Freye",
+    "slug": "freye",
+    "rarity": "SSR",
+    "element": "Chaos",
+    "class": "Debuffer",
+    "role": "Debuffer",
+    "faction": "A.S.A",
+    "tags": [
+      "DOT",
+      "Enhanced Ultimate",
+      "Damage Taken Increase",
+      "Ranged",
+      "Debuff"
+    ],
+    "image": "/images/games/zone-nova/characters/Freye.jpg",
+    "detailUrl": "/guides/zone-nova/characters/freye",
+    "stats": {
+      "hp": 9180,
+      "attack": 1184,
+      "defense": 729,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Chaos Strike",
+        "description": "Deals 120% attack power as chaos damage to designated enemy unit."
+      },
+      "auto": {
+        "name": "Attribute Break",
+        "cooldown": "5.0s",
+        "description": "Applies a weakness attribute to the designated enemy unit, prioritizing the attribute of the 4th character in your team, and reduces the corresponding attribute resistance by 15% for 10 seconds. Deals 360% attack power damage of the corresponding attribute to that target."
+      },
+      "ultimate": {
+        "name": "Dark Fate",
+        "energyCost": "3",
+        "description": "Summons a small black hole that deals damage to designated enemy units and surrounding enemies within a 3-meter range, hitting up to 12 times. Total damage is 60% chaos damage. If the enemy takes damage within 10 seconds, damage taken is increased by 36%. Next ultimate skill is enhanced. Enhanced Ultimate: Summons a large black hole that deals damage to designated enemy units and surrounding enemies within a 5-meter range, hitting up to 12 times. Total damage is 180% chaos damage. Additionally, within 10 seconds, enemy damage taken is increased by 60%. This effect cannot stack with regular ultimate skill effects."
+      },
+      "passive": {
+        "name": "Meteor Storm",
+        "description": "When using basic attacks or skills to deal damage, applies one stack of 【Divine Meteor】. When using ultimate skill to deal damage to the same target 4 times, applies one stack of 【Divine Meteor】. 【Divine Meteor】: Every 3 seconds deals 19.2% attack power as chaos damage, can stack up to 10 times, lasts 10 seconds. Passive Effect: When a large black hole exists (Enhanced Ultimate), all enemy units have their energy gain reduced by 50% and total defense reduced by 10%."
+      }
+    },
+    "teamSkill": {
+      "name": "Divine Protection",
+      "description": "After combat starts, reduces total damage dealt by all enemy units by 2.5%. For every 1000 attack power Freye has, this effect increases by 100% (doubles), maximum increase of 300%. At 3000+ attack: 10% damage reduction (maximum).",
+      "requirements": {
+        "faction": "A.S.A",
+        "element": "Chaos"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "After combat starts, can immediately cast 【Enhanced Ultimate】."
+      },
+      {
+        "level": 2,
+        "effect": "Ultimate skill damage increased by 20%. 【Enhanced Ultimate】 energy cost reduced to 1. Enhanced Passive: When large black hole exists, all enemy units have energy gain reduced by 100% and total defense reduced by 20%."
+      },
+      {
+        "level": 3,
+        "effect": "[Basic Attack], [Skill], [Ultimate], and [Passive] level and level cap +2."
+      },
+      {
+        "level": 4,
+        "effect": "Attack power increased by 30%."
+      },
+      {
+        "level": 5,
+        "effect": "[Basic Attack], [Skill], [Ultimate], and [Passive] level and level cap +2."
+      },
+      {
+        "level": 6,
+        "effect": "Targets affected by ultimate skills additionally have all resistance reduced by 20%."
+      }
+    ],
+    "memoryCard": {
+      "name": "Lamplight Study",
+      "image": "Freyecard",
+      "stats": {
+        "hp": 6000,
+        "attack": 600,
+        "defense": 600
+      },
+      "effects": [
+        "Attack power increased by 40%",
+        "Ultimate skill damage can apply 【Fate Bind】. Each stack of 【Fate Bind】 increases damage taken by 3.6%, lasts 10 seconds, maximum 10 stacks"
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "name": "Gaia",
+    "slug": "gaia",
+    "rarity": "SSR",
+    "element": "Holy",
+    "class": "Healer",
+    "role": "Healer",
+    "faction": "Odius",
+    "tags": [
+      "HP Scaling",
+      "Healing",
+      "Ranged",
+      "Revive",
+      "Max HP Boost",
+      "AOE Healing"
+    ],
+    "image": "/images/games/zone-nova/characters/Gaia.jpg",
+    "detailUrl": "/guides/zone-nova/characters/gaia",
+    "stats": {
+      "hp": 10548,
+      "attack": 580,
+      "defense": 918,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Gene Split",
+        "description": "Deals Holy Damage to a target enemy, equal to 12% of the caster's max HP."
+      },
+      "auto": {
+        "name": "Gene Collapse",
+        "cooldown": "10.0s",
+        "description": "Deploys floating devices to other allied units. When the target takes damage, the floating device heals all allied characters every second for 5 seconds, restoring HP equal to 1% of Gaia's max HP + 120 HP. When Gaia uses her Ultimate Skill, she can replenish floating devices to other allied units."
+      },
+      "ultimate": {
+        "name": "Dominion: Primordial Order",
+        "energyCost": "3",
+        "description": "Increases max HP of all allied characters by 60%. The increased max HP cannot exceed 15% of Gaia's max HP at the start of the battle. Lasts 20 seconds. During the buff duration, Gaia can use [Emergency Treatment]. [Emergency Treatment]: Heals the allied unit with the lowest current HP percentage, restoring HP equal to 12% of Gaia's max HP."
+      },
+      "passive": {
+        "name": "Primordial Regression",
+        "description": "Upon entering battle, the ally with the lowest DEF gains [Motherly Love]. While [Motherly Love] is active: The target's max HP increases by 60% (increased max HP cannot exceed 15% of Gaia's max HP at battle start). When the [Motherly Love] holder would receive lethal damage: Triggers [Life Extension] effect - immediately restores HP to 100%, then gradually loses HP over time. HP loss accelerates each second. HP loss stops if the holder defeats an enemy during this state. Each ally can trigger this once per battle. [Motherly Love] disappears if Gaia is defeated."
+      }
+    },
+    "teamSkill": {
+      "name": "Maternal Guardian",
+      "description": "Gaia gains +10% Max HP. At battle start: For every 5,000 Max HP Gaia has, her healing output increases by 5% (up to 6 stacks, max +30%).",
+      "requirements": {
+        "faction": "Odius",
+        "element": "Holy"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Characters with [Motherly Love] gain +45% DEF. [Life Extension]'s HP loss duration capped at 10 seconds."
+      },
+      {
+        "level": 2,
+        "effect": "Upon entering battle: Instantly cast Ultimate Skill with no energy cost. Using [Emergency Treatment] refreshes the duration of Ultimate Skill's buff."
+      },
+      {
+        "level": 3,
+        "effect": "[Basic Attack], [Auto Skill], [Ultimate Skill], and [Passive] levels & max levels +2."
+      },
+      {
+        "level": 4,
+        "effect": "Gaia's healing output +37.5%."
+      },
+      {
+        "level": 5,
+        "effect": "[Basic Attack], [Auto Skill], [Ultimate Skill], and [Passive] levels & max levels +2."
+      },
+      {
+        "level": 6,
+        "effect": "Upon entering battle: Two lowest-DEF allies gain [Motherly Love]. [Motherly Love] holders gain +50% additional Max HP."
+      }
+    ],
+    "memoryCard": {
+      "name": "A Smile That Topples Cities",
+      "image": "Gaiacard",
+      "stats": {
+        "hp": "6,300",
+        "attack": "580",
+        "defense": "585"
+      },
+      "effects": [
+        "Max HP +40%",
+        "Healing output +40%",
+        "If wearer healed within last 1 second, additional +40% healing output"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "name": "Greed Mammon",
+    "slug": "greed-mammon",
+    "rarity": "SR",
+    "element": "Chaos",
+    "class": "Mage",
+    "role": "DPS",
+    "faction": "Bicta Tower",
+    "tags": [
+      "Melee",
+      "AOE",
+      "Enhanced Ultimate",
+      "Crit Damage",
+      "Energy",
+      "Damage Reduction"
+    ],
+    "image": "/images/games/zone-nova/characters/GreedMammon.jpg",
+    "detailUrl": "/guides/zone-nova/characters/greed-mammon",
+    "stats": {
+      "hp": 6694,
+      "attack": 1088,
+      "defense": 442,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "The More You Hit, The Richer",
+        "description": "Deals chaos damage equal to 120% of Attack to designated enemy unit"
+      },
+      "auto": {
+        "name": "Golden Curse",
+        "cooldown": "5.0s",
+        "description": "Deal 96% attack power chaos damage to surrounding area within 3 meters of self"
+      },
+      "ultimate": {
+        "name": "Seven Deadly Sins: Greed",
+        "energyCost": "5",
+        "description": "Deals chaos damage equal to 180% of Attack to designated enemy unit. [Enhanced Ultimate] Version: Deals chaos damage equal to 240% of Attack to enemies within a 4-meter radius around self. [Buffer] After an ally uses ultimate skill, can activate [Enhanced Ultimate] once within 5 seconds"
+      },
+      "passive": {
+        "name": "Passive Tax Burden",
+        "description": "After casting enhanced ultimate skill, damage increases by 29%"
+      }
+    },
+    "teamSkill": {
+      "name": "Combo Skill",
+      "description": "Own damage dealt increases by 20%",
+      "requirements": {
+        "faction": "Bicta Tower",
+        "element": "Chaos"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "When you have buff effects: Ultimate critical damage increases by 20%"
+      },
+      {
+        "level": 2,
+        "effect": "After casting ultimate skill, damage taken decreases by 10% for 10 seconds"
+      },
+      {
+        "level": 3,
+        "effect": "[Skill] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "Ultimate skill damage increases by 20%"
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "After successfully casting enhanced ultimate skill, additionally gain 1 energy point"
+      }
+    ],
+    "memoryCard": {
+      "name": "Method of Revenge",
+      "image": "Greed-Mammon-card",
+      "stats": {
+        "hp": "4,200",
+        "attack": "650",
+        "defense": "395"
+      },
+      "effects": [
+        "When a Buffer character uses their ultimate, own ultimate damage increases by 60% for 10 seconds"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "name": "Guinevere",
+    "slug": "guinevere",
+    "rarity": "SSR",
+    "element": "Fire",
+    "class": "Guardian",
+    "role": "Tank",
+    "faction": "Avalon",
+    "tags": [
+      "Melee",
+      "Extra Attack",
+      "Block",
+      "Damage Reduction",
+      "Healing",
+      "Enhanced Ultimate",
+      "Shield",
+      "Defense Scaling"
+    ],
+    "image": "/images/games/zone-nova/characters/Guinevere.jpg",
+    "detailUrl": "/guides/zone-nova/characters/guinevere",
+    "stats": {
+      "hp": 10520,
+      "attack": 734,
+      "defense": 1232,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Inferno",
+        "description": "Deals fire damage equal to 120% of Defense to enemy unit"
+      },
+      "auto": {
+        "name": "Supreme Power",
+        "cooldown": "5.0s",
+        "description": "Gain 58% block rate for 10 seconds. [Block]: Has a chance to reduce incoming damage by 30%. Continuous damage ignores block "
+      },
+      "ultimate": {
+        "name": "Devastating Heavenly Fire",
+        "energyCost": "3",
+        "description": "Launches [Extra Attack] against enemy unit. Deals fire damage equal to 240% of Defense. Gains 1 layer of [Domination Authority]. Reduces damage taken by 24% for 10 seconds. [Enhanced Ultimate] (Requires 10 Domination Authority stacks): Clears all [Domination Authority] to gain one passive life recovery count. Launches [Extra Attack] against enemy target. Deals fire damage equal to 240% of Defense. Reduces damage taken by 24% for 10 seconds"
+      },
+      "passive": {
+        "name": "Evil Star Explosion",
+        "description": "Effect 1: After successful [Block], increases own defense by 60% for 10 seconds. Effect 2: After successful [Block], gains 1 layer of [Domination Authority], maximum 1 layer per second. When [Domination Authority] reaches 10 layers, can cast [Enhanced Ultimate]. Effect 3: When HP drops to 40% or below, triggers life recovery: Restores 58% max HP within 0.5 seconds, increases block rate to 100% for 10 seconds, increases critical resistance by 100% for 10 seconds. This effect has one initial trigger, can accumulate maximum once"
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Effect 1: Self defense increases by 15%. Effect 2: For every 500 defense in battle, reduces damage taken by the whole team by 1.5%. Maximum 6 stacks (3,000 defense). Maximum team damage reduction: 9%.",
+      "requirements": {
+        "faction": "Avalon",
+        "element": "Fire"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "After [Block] is successful, additionally increase own defense by 30% for 5 seconds. Passive life recovery count can be accumulated up to 2 times (allows Enhanced Ultimate to restore a second charge)"
+      },
+      {
+        "level": 2,
+        "effect": "Launching normal ultimate skill can additionally gain 1 layer of [Domination Authority]. After launching enhanced ultimate skill, immediately gains 2 layers of [Domination Authority]"
+      },
+      {
+        "level": 3,
+        "effect": "[Skill] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "Defense increased by 45%"
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "All resistance +15%, Fire resistance additional +15%. Starting passive life recovery count changes to 2 times"
+      }
+    ],
+    "memoryCard": {
+      "name": "Simple Birdcage",
+      "image": "Guinevere-card",
+      "stats": {
+        "hp": "6,600",
+        "attack": "480",
+        "defense": "690"
+      },
+      "effects": [
+        "Defense increased by 64%",
+        "After successful block, damage taken decreases by 10%, lasting 5 seconds",
+        "Immediately gains 30% maximum HP shield after battle starts"
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "name": "Hera",
+    "slug": "hera",
+    "rarity": "SSR",
+    "element": "Chaos",
+    "class": "Rogue",
+    "role": "DPS",
+    "faction": "Odius",
+    "tags": [
+      "Ranged",
+      "DOT",
+      "Enhanced Ultimate"
+    ],
+    "image": "/images/games/zone-nova/characters/Hera.jpg",
+    "detailUrl": "/guides/zone-nova/characters/hera",
+    "stats": {
+      "hp": 8033,
+      "attack": 1461,
+      "defense": 530,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Queen's Torture",
+        "chineseName": "天后酷刑",
+        "level": "10+4",
+        "cooldown": "2.0s",
+        "description": "Deals 120% attack power chaos damage to designated enemy unit"
+      },
+      "auto": {
+        "name": "Judgment Execution",
+        "chineseName": "审判延戮",
+        "level": "10+4",
+        "cooldown": "8.0s",
+        "description": "8 flying swords around self simultaneously launch, dealing 720% attack power chaos damage to designated enemy unit"
+      },
+      "ultimate": {
+        "name": "Despair Strangulation",
+        "chineseName": "绝望绞杀",
+        "level": "10+4",
+        "cooldown": "1.0s",
+        "energyCost": "6",
+        "description": "Summons giant flying sword to attack designated enemy unit, dealing 1440% attack power chaos damage. When the enemy has 20+ layers of continuous damage targets, can cast [Enhanced Ultimate] within 5 seconds. [Enhanced Ultimate]: Summons more swords to attack designated enemy unit, dealing 1920% attack power chaos damage"
+      },
+      "passive": {
+        "name": "Strong Pressure",
+        "chineseName": "女神威压",
+        "level": "10+4",
+        "description": "Every 4 sword attacks (Basic Attack also count as 1 sword Attacks, same with Auto Skill 8 swords.), next attack can add [Void] effect. [Void]: Deals 36% attack power chaos damage per second per layer, max 10 layers, lasts 10 seconds"
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "chineseName": "组合技",
+      "level": "1",
+      "description": "Self attack power +10%. Battle Start: Every 500 attack power increases self penetration by 3%, max 6 times, total 18%.",
+      "requirements": {
+        "faction": "Odius",
+        "element": "Chaos",
+        "condition": "2 [Odius] colored or 2 [Chaos] colored characters"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Attack power +20%"
+      },
+      {
+        "level": 2,
+        "effect": "Add [Void] required attack count -1"
+      },
+      {
+        "level": 3,
+        "effect": "[Skills] and [Normal Attack] level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "Chaos damage +30%"
+      },
+      {
+        "level": 5,
+        "effect": "[Required Skills] and [Passive] level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "Ultimate skill ignores target's 20% chaos resistance"
+      }
+    ],
+    "memoryCard": {
+      "name": "Hera Memory",
+      "chineseName": "黑脸丑人",
+      "image": "Heracard",
+      "level": "80/80",
+      "stats": {
+        "hp": "5,040",
+        "attack": "780",
+        "defense": "474"
+      },
+      "effects": [
+        "Attack power +40%, When attacking targets affected by continuous damage effects, damage increases by 40%"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "name": "Horus",
+    "slug": "horus",
+    "rarity": "SSR",
+    "element": "Holy",
+    "class": "Debuffer",
+    "role": "Debuffer",
+    "faction": "Chemic",
+    "tags": [
+      "Ranged",
+      "DOT",
+      "AOE",
+      "Interrupt",
+      "Debuff",
+      "DOT Damage Boost",
+      "Penetration",
+      "Damage Boost"
+    ],
+    "image": "/images/games/zone-nova/characters/Horus.jpg",
+    "detailUrl": "/guides/zone-nova/characters/horus",
+    "stats": {
+      "hp": 8033,
+      "attack": 1461,
+      "defense": 530,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Holy Radiance Arrow",
+        "description": "Deals holy damage equal to 120% of Attack to enemy"
+      },
+      "auto": {
+        "name": "Arrow of Atum",
+        "cooldown": "5.0s",
+        "description": "Shoots arrows at target. Deals 120% attack power holy damage to target and 2m radius. Adds 1 layer [Piercing] to all hit enemies. [Piercing] Effect: Each layer deals 19.2% attack power holy damage every 3 seconds. Maximum Stacks: 10 layers for continuous damage for 10 seconds"
+      },
+      "ultimate": {
+        "name": "Eye of Wadjet",
+        "energyCost": "3",
+        "description": "Deals 480% attack power holy damage to target. Adds 1 layer [Seal] and 1 layer [Piercing]. Skill Interrupt: This Ultimate can interrupt Skill casting (Good in PVE for Boss)"
+      },
+      "passive": {
+        "name": "Solar Divine Judgment",
+        "description": " When using skills (Ultimate & Auto skill) on targets with [Seal], consumes 1 layer and triggers area explosion (4m radius) that cause 120% attack power holy damage to targets. Hit targets gain 1 layer [Piercing]. [Piercing] Effect: Each layer deals 19.2% attack power holy damage every 3 seconds. Maximum Stacks: 10 layers for continuous damage for 10 seconds "
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Self attack power increases by 10%. At battle start, every 500 attack power adds 3% penetration, maximum 6 times (18% max)",
+      "requirements": {
+        "faction": "Chemic",
+        "element": "Holy"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Attack power increased by 20%"
+      },
+      {
+        "level": 2,
+        "effect": "When dealing continuous damage, make the targets received continuous damage increase by 20%, lasts 3 seconds, repeated triggers can refresh the duration"
+      },
+      {
+        "level": 3,
+        "effect": "[Skill] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "[Continuous Damage] effects deal +35% increased damage"
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "When dealing damage to targets that have [Continuous damage] status, gain 20% holy resistance penetration"
+      }
+    ],
+    "memoryCard": {
+      "name": "Cute Little Thing",
+      "image": "Horuscard",
+      "stats": {
+        "hp": "5,040",
+        "attack": "780",
+        "defense": "474"
+      },
+      "effects": [
+        " Attack power increases by 40%. When you have (DOT) continuous damage, Target take 24% increased damage, lasts 3 seconds"
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "name": "Ibaraki-doji",
+    "slug": "ibaraki-doji",
+    "rarity": "SSR",
+    "element": "Fire",
+    "class": "Debuffer",
+    "role": "Debuffer",
+    "faction": "Pingjing City",
+    "tags": [
+      "Ranged",
+      "Debuff",
+      "Ultimate Damage Amp",
+      "Energy Drain",
+      "Resistance Reduction",
+      "Attack Reduction",
+      "Interrupt",
+      "AOE"
+    ],
+    "image": "/images/games/zone-nova/characters/Ibaraki-doji.jpg",
+    "detailUrl": "/guides/zone-nova/characters/ibaraki-doji",
+    "stats": {
+      "hp": 9180,
+      "attack": 1184,
+      "defense": 729,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Flame Arrow",
+        "level": "10+4",
+        "cooldown": "2.0s",
+        "description": "Deals 120% of attack power as fiery damage to the designated enemy unit."
+      },
+      "auto": {
+        "name": "Arrow of the Curse",
+        "level": "10+4",
+        "cooldown": "5.0s",
+        "description": "Deals fire damage equal to 244.3% of attack power to the target and a 4-meter radius, and applies 1 stack of [Curse Covenant], reducing energy gain efficiency by 35.8% and increasing damage taken by 38.6% for 10 seconds."
+      },
+      "ultimate": {
+        "name": "Fire Phoenix Curse",
+        "level": "10+4",
+        "energyCost": "3",
+        "cooldown": "1.0s",
+        "description": "Unleashes a Fire Phoenix in the direction of the enemy target, dealing 360% fire damage to all enemies in its path. Enemies hit by the damage will be inflicted with 1 stack of [Flame Curse], increasing their damage taken from ultimate skills by 87.9% for 10 seconds. This damage can [Interrupt] any skill being cast by the target."
+      },
+      "passive": {
+        "name": "Deboning",
+        "level": "10+4",
+        "description": "All attacks inflict [Eviscerate] upon damaging enemies, increasing damage taken from ultimate skills by 3.6%, up to 10 stacks, lasting 5 seconds."
+      }
+    },
+    "teamSkill": {
+      "name": "Combo Skill",
+      "level": "1",
+      "description": "After battle starts, reduces total damage dealt by all enemy units by 2.5%. For every 1000 Attack Power, the effect increases by 100%, up to a maximum of 300%.",
+      "requirements": {
+        "faction": "Heikyo Castle",
+        "element": "Fire",
+        "alternativeRequirement": "2 [Heikyo Castle] characters or 2 [Fire] characters"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "At the start of battle, the first use of a Ultimate Skill does not consume energy."
+      },
+      {
+        "level": 2,
+        "effect": "When your ultimate skill hits an enemy, it inflicts [Flame Pressure], reducing the enemy's attack power by 35% for 3 seconds."
+      },
+      {
+        "level": 3,
+        "effect": "[Normal Attack], [Skill], [ULT] and [Passive] level and level cap +2."
+      },
+      {
+        "level": 4,
+        "effect": "Attack power increased by 30%."
+      },
+      {
+        "level": 5,
+        "effect": "[Normal Attack], [Skill], [ULT] and [Passive] level and level cap +2."
+      },
+      {
+        "level": 6,
+        "effect": "Targets affected by ultimate skills have their all resistances reduced by an additional 20% for 5 sec."
+      }
+    ],
+    "memoryCard": {
+      "name": "A Perfect Makeup Look?",
+      "image": "Ibaraki-dojicard",
+      "stats": {
+        "hp": "6,000",
+        "attack": "600",
+        "defense": "600"
+      },
+      "effects": [
+        "Attack power increased by 40%",
+        "When a Ultimate Skill deals damage, the target takes 36% more damage and receives 40% less healing for 5 seconds"
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "name": "Jeanne D Arc",
+    "slug": "jeanne-darc",
+    "rarity": "SSR",
+    "element": "Wind",
+    "class": "Healer",
+    "role": "Healer",
+    "faction": "Avalon",
+    "tags": [
+      "Ranged",
+      "Healing",
+      "Revive",
+      "Damage Reduction",
+      "Continuous Healing"
+    ],
+    "image": "/images/games/zone-nova/characters/JoanofArc.jpg",
+    "detailUrl": "/guides/zone-nova/characters/jeanne-darc",
+    "stats": {
+      "hp": 9180,
+      "attack": 1004,
+      "defense": 729,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Sacred Banner Thrust",
+        "chineseName": "圣旗突刺",
+        "level": "10+4",
+        "cooldown": "2.0s",
+        "description": "Deals 120% attack power wind damage to designated enemy unit"
+      },
+      "auto": {
+        "name": "Holy Light Banner",
+        "chineseName": "圣光旗帜",
+        "level": "10+4",
+        "cooldown": "8.0s",
+        "description": "After short cast, recovers the friendly unit with lowest current HP ratio, self attack power 80.5%+445 HP, continuously heals 3 times"
+      },
+      "ultimate": {
+        "name": "Sacred Heavenly ",
+        "chineseName": "圣天神后",
+        "level": "10+4",
+        "cooldown": "1.0s",
+        "energyCost": "8",
+        "description": "Restore health to all friendly characters equal to self attack power 90.8% + 668, and add 3 layers of [Sacred Healing] to self, [Sacred Healing] can stack up to maximum 4 layers"
+      },
+      "passive": {
+        "name": "Sacred Blood Healing",
+        "chineseName": "圣血治疗",
+        "level": "10+4",
+        "description": "When friendly characters are attacked, consume 1 layer [Sacred Healing] and restore health to that character equal to self attack power 91.2% + 445, each character has 1 second cooldown time When friendly units enter near-death state, after 5 seconds revive them and restore health equal to self attack power 285.8% + 2709, can revive at most once per battle"
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "chineseName": "组合技",
+      "level": "1",
+      "description": "Self attack power +10%. Every 500 attack power increases self healing by 5%, max 6 times.",
+      "requirements": {
+        "faction": "Avalon",
+        "element": "Wind",
+        "condition": "2 [Avalon] colored or 2 [Wind] colored characters"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "After casting ultimate skill, additionally add 1 layer of [Sacred Healing]"
+      },
+      {
+        "level": 2,
+        "effect": "After consuming [Sacred Healing] to heal target, that target takes 10% reduced damage for 5 seconds, repeated triggers can extend the duration"
+      },
+      {
+        "level": 3,
+        "effect": "[Skills] and [Normal Attack] level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "Healing amount increased by 37.5%"
+      },
+      {
+        "level": 5,
+        "effect": "[Required Skills] and [Passive] level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "Revival count increased by 1"
+      }
+    ],
+    "memoryCard": {
+      "name": "The Most Real Her",
+      "chineseName": "最真实的她",
+      "image": "JoanofArccard",
+      "level": "80/80",
+      "stats": {
+        "hp": "6,000",
+        "attack": "600",
+        "defense": "600"
+      },
+      "effects": [
+        "Healing amount increases by 50% When casting skills or ultimate skills for 1/2/3 seconds, healing amount additionally increases by 25/50/75%"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "name": "Kela",
+    "slug": "kela",
+    "rarity": "SR",
+    "element": "Holy",
+    "class": "Healer",
+    "role": "Healer",
+    "faction": "Sapphire",
+    "tags": [
+      "Ranged",
+      "Healing",
+      "Damage Reduction"
+    ],
+    "image": "/images/games/zone-nova/characters/kela.jpg",
+    "detailUrl": "/guides/zone-nova/characters/kela",
+    "stats": {
+      "hp": 7650,
+      "attack": 837,
+      "defense": 608,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Divine Strike",
+        "description": "Deals 120% attack power as Holy damage to designated enemy unit"
+      },
+      "auto": {
+        "name": "Sacred Healing",
+        "cooldown": "5.0s",
+        "description": "Heal the friendly unit with the lowest current health percentage once, restore health equal to self attack power 69% + 335"
+      },
+      "ultimate": {
+        "name": "Divine Intervention",
+        "energyCost": "3",
+        "description": "Heal the friendly unit with the lowest current health percentage once, restore health equal to self attack power 128% + 682"
+      },
+      "passive": {
+        "name": "Master of All (万事通之力)",
+        "description": "When healing friendly units whose current health is below 50%, healing amount increases by 24%"
+      }
+    },
+    "teamSkill": {
+      "name": "Divine Sanctuary",
+      "description": "Self attack power increases by 10%, healing amount increases by 12.5%",
+      "requirements": {
+        "faction": "Sapphire",
+        "element": "Holy"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "After ultimate skill heals friendly units, additionally make the target take 5% reduced damage, lasts 5 seconds"
+      },
+      {
+        "level": 2,
+        "effect": "When self health drops below 20% after taking damage, immediately restore health equal to self attack power 750%, can trigger at most once per battle"
+      },
+      {
+        "level": 3,
+        "effect": "[Skills] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "Healing amount increases by 20%"
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "Auto Skills healing friendly units can also trigger Awakening 1 effect. Awakening 1 effect is increased by 100% (It become 10%)"
+      }
+    ],
+    "memoryCard": {
+      "name": "Solitary Realm (一人之境)",
+      "image": "kelacard",
+      "stats": {
+        "hp": "5,000",
+        "attack": "500",
+        "defense": "500"
+      },
+      "effects": [
+        "Healing amount increases by 30%. When healing targets below 50% maximum health, they get 8% reduced damage, lasts 10 seconds"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "name": "Lancelot",
+    "slug": "lancelot",
+    "rarity": "SR",
+    "element": "Holy",
+    "class": "Guardian",
+    "role": "Tank",
+    "faction": "Avalon",
+    "tags": [
+      "Melee",
+      "HP Scaling",
+      "Shield",
+      "Damage Reduction",
+      "Healing"
+    ],
+    "image": "/images/games/zone-nova/characters/Lancelot.jpg",
+    "detailUrl": "/guides/zone-nova/characters/lancelot",
+    "stats": {
+      "hp": 10857,
+      "attack": 612,
+      "defense": 957,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Lake Sword",
+        "description": "Deals holy damage to enemy unit equal to 12% of own maximum HP"
+      },
+      "auto": {
+        "name": "Lake Sacred Shield",
+        "cooldown": "4.0s",
+        "description": "Adds a [Shield] equal to 5.1% of max HP to self. [Shield] can stack up to 30% of HP limit."
+      },
+      "ultimate": {
+        "name": "Blooming Knight's Flower",
+        "energyCost": "3",
+        "description": "Immediately moves in front of specified enemy unit. All team characters receive 24% less damage for 15 seconds."
+      },
+      "passive": {
+        "name": "Lake Spirit's Blessing",
+        "description": "When HP drops below 50% after taking damage: Recover 9.6% of maximum HP every 3 seconds. Effect lasts for 15 seconds."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Own maximum HP increased by 10%. Defense increased by 10%.",
+      "requirements": {
+        "faction": "Avalon",
+        "element": "Holy"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Defense increased by 45%"
+      },
+      {
+        "level": 2,
+        "effect": "When attacked, if having a shield, damage taken is reduced by 10%"
+      },
+      {
+        "level": 3,
+        "effect": "[Skills] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "HP increased by 30%"
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "Recovery amount from passive effect increased by 100%.)"
+      }
+    ],
+    "memoryCard": {
+      "name": "Lancelot-HerTrainer",
+      "image": "Lancelotcard",
+      "stats": {
+        "hp": "5,500",
+        "attack": "400",
+        "defense": "575"
+      },
+      "effects": [
+        "Defense increased by 36%, After entering battle, all our characters take 8% less damage, same skill effects cannot stack"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "name": "Leviathan",
+    "slug": "leviathan",
+    "rarity": "SR",
+    "element": "Wind",
+    "class": "Rogue",
+    "role": "DPS",
+    "faction": "Bicta Tower",
+    "tags": [
+      "Melee",
+      "Crit Rate",
+      "Extra Attack"
+    ],
+    "image": "/images/games/zone-nova/characters/Leviathan.jpg",
+    "detailUrl": "/guides/zone-nova/characters/leviathan",
+    "stats": {
+      "hp": 6694,
+      "attack": 1088,
+      "defense": 442,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Leviathan's Kiss (利维坦之吻)",
+        "description": "Deals 120 % ATK Wind damage to the targeted enemy."
+      },
+      "auto": {
+        "name": "Abyss Roar (深渊之咆哮)",
+        "cooldown": "5.0s",
+        "description": "Deals 120 % ATK Wind damage to the targeted enemy and gains 2 Marks."
+      },
+      "ultimate": {
+        "name": "Seven Deadly Sins: Jiāolú (七大罪：娇炉)",
+        "energyCost": "5",
+        "description": "Deals 600 % ATK Wind damage to the targeted enemy, then immediately performs 1 extra attack that does NOT consume a Mark."
+      },
+      "passive": {
+        "name": "Grudge Deep Chain (怨恨深链)",
+        "description": "When our allied units use auto skills and hit enemies, consume 1 Mark to perform an extra attack dealing 180 % ATK Wind damage."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Self damage increased by 20%.",
+      "requirements": {
+        "faction": "Bicta Tower",
+        "element": "Wind"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "When self activates [auto Skill], can also trigger passive effects"
+      },
+      {
+        "level": 2,
+        "effect": "Extra attacks gain +20 % Crit Rate."
+      },
+      {
+        "level": 3,
+        "effect": "[Skills] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "Extra attacks deal +20 % damage."
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "When using ultimate skill, the number of follow-up attacks triggered changes from 1 time to 2 times."
+      }
+    ],
+    "memoryCard": {
+      "name": "Perverted Little Nurse (变态小护士)",
+      "image": "Leviathancard",
+      "stats": {
+        "hp": "4,200",
+        "attack": "650",
+        "defense": "395"
+      },
+      "effects": [
+        "After landing an extra attack, gain +36 % Crit Rate for 10 s."
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "name": "Lavinia",
+    "slug": "lavinia",
+    "rarity": "SSR",
+    "element": "Fire",
+    "class": "Healer",
+    "role": "Healer",
+    "faction": "Sapphire",
+    "tags": [
+      "Healing",
+      "Melee",
+      "Crit Damage",
+      "Crit Rate",
+      "Normal Attack",
+      "Extra Attack",
+      "Interrupt"
+    ],
+    "image": "/images/games/zone-nova/characters/Lavinia.jpg",
+    "detailUrl": "/guides/zone-nova/characters/lavinia",
+    "stats": {
+      "hp": 8700,
+      "attack": 956,
+      "defense": 672,
+      "energyRecovery": 0.25,
+      "critRate": 28.9,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Flame Kiss",
+        "description": "Deals 120% attack power fire damage to specified enemy unit.",
+        "cooldown": "2.0s"
+      },
+      "auto": {
+        "name": "Blazing Sequential Healing",
+        "cooldown": "10.0s",
+        "description": "Deals 5-stage damage to specified enemy unit, totaling 720% attack power fire damage. After each damage instance, heals the ally unit with lowest current health percentage for health equal to 24% of own attack power."
+      },
+      "ultimate": {
+        "name": "Final Sacred Judgment",
+        "energyCost": "3",
+        "cooldown": "1.0s",
+        "description": "Deals 4-stage damage to specified enemy unit, totaling 960% attack power damage. After each damage instance, recovers health equal to 72% of own attack power from the enemy unit with lowest health percentage. First damage can (interrupt) skills currently being cast. Final damage stage is considered (Extra attack) damage."
+      },
+      "passive": {
+        "name": "Critical Healing Grace",
+        "description": "For every 1% critical rate Lavinia has when entering battle, her healing effectiveness increases by 0.5%. After Lavinia uses basic attack/skill/ultimate, she can heal the ally unit with the lowest current health percentage for health equal to 24% of her own attack power."
+      }
+    },
+    "teamSkill": {
+      "name": "Combo Skill",
+      "description": "Own critical rate increases by 7.5%. At battle start, every 15% critical rate increases own healing amount by 5%, up to 6 times maximum.",
+      "requirements": {
+        "faction": "Sapphire",
+        "element": "Fire",
+        "alternativeRequirement": "2 [Sapphire] characters or 2 [Fire] characters"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Critical rate increased by 12%. All healing effects from Lavinia can make targets take 10% reduced damage for 5 seconds, repeated triggers can extend duration."
+      },
+      {
+        "level": 2,
+        "effect": "Ultimate skill energy cost reduced by 1. After Lavinia uses basic attack/skill/ultimate, can additionally deal 20% attack power fire damage."
+      },
+      {
+        "level": 3,
+        "effect": "[Basic Attack], [Skill], [Ultimate] and [Passive] level and level cap +2."
+      },
+      {
+        "level": 4,
+        "effect": "Healing amount increased by 37.5%."
+      },
+      {
+        "level": 5,
+        "effect": "[Basic Attack], [Skill], [Ultimate] and [Passive] level and level cap +2."
+      },
+      {
+        "level": 6,
+        "effect": "The final stage damage of skills is considered [extra attack] damage. Lavinia's [Extra attack] damage can reduce target's all resistances by 10%, and increase extra attack damage taken by 20%, lasting 5 seconds."
+      }
+    ],
+    "memoryCard": {
+      "name": "Are the Glasses the True Body?",
+      "image": "Laviniacard",
+      "stats": {
+        "hp": "6,000",
+        "attack": "600",
+        "defense": "600"
+      },
+      "effects": [
+        "Critical rate increased by 34%",
+        "After each critical hit, own healing amount increases by 50%, lasting 3 seconds",
+        "After each heal, all ally targets' attack power increases by 30%, lasting 3 seconds"
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "name": "Lily",
+    "slug": "lily",
+    "rarity": "SSR",
+    "element": "Ice",
+    "class": "Guardian",
+    "role": "Tank",
+    "faction": "Sapphire",
+    "tags": [
+      "Defense Scaling",
+      "Shield",
+      "Damage Reduction",
+      "Enhanced Ultimate",
+      "Mitigation"
+    ],
+    "image": "/images/games/zone-nova/characters/Lily.jpg",
+    "detailUrl": "/guides/zone-nova/characters/lily",
+    "stats": {
+      "hp": 10520,
+      "attack": 480,
+      "defense": 1625,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Frost Armor Thorn",
+        "cooldown": "2.0s",
+        "description": "Deals ice damage equal to 120% of own defense to a designated enemy unit."
+      },
+      "auto": {
+        "name": "Frost Flow Defense Stance",
+        "cooldown": "5.0s",
+        "description": "Grants 58% damage mitigation rate to self, lasting 5 seconds. [Mitigation]: Has a chance to reduce this damage by 30%; critical hit damage ignores mitigation."
+      },
+      "ultimate": {
+        "name": "Breaking Formation · Final Scene",
+        "cooldown": "1.0s",
+        "energyCost": "3",
+        "description": "Deals ice damage equal to 240% of own defense to a designated enemy unit, gains 1 stack of [Battle Intention], and reduces self-damage taken by 24% for 10 seconds.\n\n[Enhanced Ultimate]: Clear all [Battle Intention] stacks, gain a shield with an amount equal to 24% of max HP, and for 10 seconds, nullify all incoming damage (increased to 100%), remove all ongoing damage effects, deal ice damage equal to 480% of own defense to a designated enemy unit, and reduce self-damage taken by 24% for 10 seconds."
+      },
+      "passive": {
+        "name": "Hundred-Battle Ice Bone",
+        "description": "Effect 1: [Mitigation] After success, increase own defense by 60% for 5 seconds; repeated triggers can extend duration.\n\nEffect 2: [Mitigation] After success, gain 1 stack of [Battle Intention]; maximum 1 stack per second. When [Battle Intention] reaches 10 stacks, can cast [Enhanced Ultimate Skill].\n\nEffect 3: After entering battle and when own HP drops to 70%/40%/10% or below, gain a shield; each shield can trigger at most once. Shield amount equals 24% of max HP, and within 10 seconds, mitigation rate rises to 100%, removing all ongoing damage effects.\n\nEffect 4: After gaining a shield each time, instantly recover 10% of max HP."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Effect 1: Own defense increases by 15%.\n\nEffect 2: At the start of battle, every 500 defense reduces team-wide damage taken by 1.5%, up to 6 times.",
+      "requirements": {
+        "faction": "Sapphire",
+        "element": "Ice"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "[Mitigation] After success, additionally increase own defense by 30% for 5 seconds; casting a normal ultimate skill grants 1 extra stack of [Battle Intention]; after casting an enhanced ultimate skill, immediately obtain 2 stacks of [Battle Intention]."
+      },
+      {
+        "level": 2,
+        "effect": "After entering battle, all units on my side gain 20 layers of [Frost Armor]; each time taking damage, remove 1 layer of [Frost Armor], reducing that damage by 50%; [Frost Armor] expires after 20 seconds."
+      },
+      {
+        "level": 3,
+        "effect": "[Normal Attack], [Skill], [Ultimate Skill], and [Passive] level and level cap +2"
+      },
+      {
+        "level": 4,
+        "effect": "Defense increases by 45%"
+      },
+      {
+        "level": 5,
+        "effect": "[Normal Attack], [Skill], [Ultimate Skill], and [Passive] level and level cap +2"
+      },
+      {
+        "level": 6,
+        "effect": "All resistances increase by 15%, and ice resistance additionally increases by 15%."
+      }
+    ],
+    "memoryCard": {
+      "name": "In the Cafe, Sneaking a Bite",
+      "image": "Lilycard",
+      "stats": {
+        "hp": "6,600",
+        "attack": "480",
+        "defense": "690"
+      },
+      "effects": [
+        "Defense increases by 64%",
+        "After successful mitigation, damage taken is reduced by 10% for 5 seconds. When the wearer has a shield, damage taken is reduced by 18%."
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "name": "Loki",
+    "slug": "loki",
+    "rarity": "SSR",
+    "element": "Chaos",
+    "class": "Debuffer",
+    "role": "Debuffer",
+    "faction": "A.S.A",
+    "tags": [
+      "Ranged",
+      "Debuff",
+      "Ultimate Block",
+      "Damage Reduction",
+      "Damage Boost"
+    ],
+    "image": "/images/games/zone-nova/characters/Loki.jpg",
+    "detailUrl": "/guides/zone-nova/characters/loki",
+    "stats": {
+      "hp": 9564,
+      "attack": 1004,
+      "defense": 672,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Netherworld Fire",
+        "description": "Deals chaos damage equal to 120% of Attack to designated enemy"
+      },
+      "auto": {
+        "name": "Jormungandr's Poison",
+        "cooldown": "10.0s",
+        "description": "Deal 120% attack power chaos damage to all enemy units and apply [Seal], preventing use of ultimate skills, lasting 5 seconds"
+      },
+      "ultimate": {
+        "name": "Woeful Wrath",
+        "energyCost": "5",
+        "description": "Rush to behind the enemy unit with the highest base attack power, deal 240% attack power chaos damage to target and apply [Weakness], reducing their damage dealt by 36%, lasting 10 seconds"
+      },
+      "passive": {
+        "name": "Art of Deception",
+        "description": "Auto skills apply 36% vulnerability debuff for 5 seconds. Refreshable Duration: New applications refresh the timer. Maximum Stacks: 1 layer (36% increased damage). With A1, all attacks can trigger. With A6, can stack 2 layers (72%)."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Own attack power increases by 10%, At battle start, every 500 attack power can increase own chaos damage by 5%, up to 6 times",
+      "requirements": {
+        "faction": "A.S.A",
+        "element": "Chaos"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Normal attacks and Ultimate can additionally trigger passive skill effects."
+      },
+      {
+        "level": 2,
+        "effect": "When taking damage, make the attacker deal 10% less damage for 5 seconds, repeated triggering can refresh the duration"
+      },
+      {
+        "level": 3,
+        "effect": "[Skills] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "When attacking enemies with debuff status, damage increases by 35%."
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "The passives vulnerability effect can stack 1 additional layer (2 layers total for 72% increased damage)"
+      }
+    ],
+    "memoryCard": {
+      "name": "True Order (真正的秩序)",
+      "image": "Lokicard",
+      "stats": {
+        "hp": "6,000",
+        "attack": "600",
+        "defense": "600"
+      },
+      "effects": [
+        "Attack increases by 40%, the last target hit by the wearer's ULT takes 24% increased damage"
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "name": "Lyra",
+    "slug": "lyra",
+    "rarity": "SSR",
+    "element": "Fire",
+    "class": "Mage",
+    "role": "DPS",
+    "faction": "Sapphire",
+    "tags": [
+      "Melee",
+      "Crit Rate",
+      "Crit Damage",
+      "Enhanced Ultimate",
+      "Cooldown Reduction",
+      "Attack Boost"
+    ],
+    "image": "/images/games/zone-nova/characters/Lyra.jpg",
+    "detailUrl": "/guides/zone-nova/characters/lyra",
+    "stats": {
+      "hp": 8033,
+      "attack": 1305,
+      "defense": 530,
+      "energyRecovery": 0.25,
+      "critRate": 15,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "End Blade Continuous Strike",
+        "description": "Deals fire damage equal to 120% of Attack to enemy"
+      },
+      "auto": {
+        "name": "Two-Blade Flow - End Blade - Continuous Slash",
+        "cooldown": "8.0s",
+        "description": "Deals fire damage equal to 480% of Attack to enemy. Applies [Fire Essence] for 10 seconds."
+      },
+      "ultimate": {
+        "name": "Two-Blade Flow - End Blade - Ghost Blade Flow",
+        "energyCost": "5",
+        "description": "Deals fire damage equal to 360% of Attack to enemy. Enhanced (if target has Fire Essence): Consumes [Fire Essence] and deals fire damage equal to 360% of Attack to target and enemies behind."
+      },
+      "passive": {
+        "name": "Black Armor Recommendation System",
+        "description": "For every enemy unit on the field, increases attack power by 19%, can increase maximum 4 times"
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Self critical rate increases by 7.5%. Combat start: Each 15% critical rate can additionally add 7.5% critical damage, maximum 6 times.",
+      "requirements": {
+        "faction": "Sapphire",
+        "element": "Fire"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Critical rate increases by 15%."
+      },
+      {
+        "level": 2,
+        "effect": "Auto Skill cooldown time reduced by 40%."
+      },
+      {
+        "level": 3,
+        "effect": "[Skill] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "Fire damage increases by 35%."
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "Ultimate damage ignores target's 20% fire resistance."
+      }
+    ],
+    "memoryCard": {
+      "name": "Self-Release (自我放纵)",
+      "image": "Lyracard",
+      "stats": {
+        "hp": "5,040",
+        "attack": "780",
+        "defense": "474"
+      },
+      "effects": [
+        "Ultimate Damage: Ultimate damage increased by 40%. For every enemy on the field, ultimate skill damage additionally increases by 10%, maximum 4 times"
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "name": "Merlin",
+    "slug": "merlin",
+    "rarity": "SSR",
+    "element": "Fire",
+    "class": "Rogue",
+    "role": "DPS",
+    "faction": "Avalon",
+    "tags": [
+      "Melee",
+      "Crit Damage",
+      "Enhanced Ultimate",
+      "Crit Rate",
+      "Damage Boost"
+    ],
+    "image": "/images/games/zone-nova/characters/Merlin.jpg",
+    "detailUrl": "/guides/zone-nova/characters/merlin",
+    "stats": {
+      "hp": 8033,
+      "attack": 1305,
+      "defense": 530,
+      "energyRecovery": 0.25,
+      "critRate": 15,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Flame Slash",
+        "description": "Deals fire damage equal to 120% of Attack to enemy unit"
+      },
+      "auto": {
+        "name": "Magic Swordplay: Molten Core Burst",
+        "cooldown": "5.0s",
+        "description": "Deals fire damage equal to 780% of Attack to enemy unit and applies [Mark]. When Merlin uses ultimate skill or attacks targets with [Mark], damage increases by 20%"
+      },
+      "ultimate": {
+        "name": "Magic Swordplay: King's Sword",
+        "energyCost": "6",
+        "description": "Deals fire damage equal to 1080% of Attack to enemy unit. After [buffer] uses ultimate skill, can activate [Enhanced Ultimate Skill] once within 5 seconds. [Enhanced Ultimate Skill]: Deal 1200% attack power Fire damage to target enemy unit. When there is only one enemy unit on the field, damage is additionally increased by 30% "
+      },
+      "passive": {
+        "name": "Rune Oscillation",
+        "description": "When ultimate skill critically hits, additionally deals Fire damage equal to 120% attack power"
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Self critical rate increased by 7.5%. At the start of battle, every 15% critical hit rate can increase own critical hit damage by 7.5%, maximum 6 times",
+      "requirements": {
+        "faction": "Avalon",
+        "element": "Fire"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Critical rate increased by 15%."
+      },
+      {
+        "level": 2,
+        "effect": "After [debuffer] uses ultimate skill, can also activate [Enhanced Ultimate Skill] once within 5 seconds. When activating [Enhanced Ultimate Skill], critical hit damage increases by 20%"
+      },
+      {
+        "level": 3,
+        "effect": "[Skills] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "Ultimate skill damage increased by 35%"
+      },
+      {
+        "level": 5,
+        "effect": "[Must Kill] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "[Enhanced Ultimate Skill] ignores targets 20% elemental resistance"
+      }
+    ],
+    "memoryCard": {
+      "name": "King's Sword",
+      "image": "Merlincard",
+      "stats": {
+        "hp": "5,280",
+        "attack": "857",
+        "defense": "348"
+      },
+      "effects": [
+        "Attack power increased by 40%, When there is only one enemy on the field, ultimate skill damage increased by 40%"
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "name": "Mordred",
+    "slug": "mordred",
+    "rarity": "SR",
+    "element": "Fire",
+    "class": "Warrior",
+    "role": "DPS",
+    "faction": "Avalon",
+    "tags": [
+      "Melee",
+      "Healing",
+      "HP Scaling",
+      "Damage Reduction"
+    ],
+    "image": "/images/games/zone-nova/characters/Mordred.jpg",
+    "detailUrl": "/guides/zone-nova/characters/mordred",
+    "stats": {
+      "hp": 8470,
+      "attack": 837,
+      "defense": 560,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Petty Sword",
+        "description": "Deals 120% of own maximum HP as Fire damage to enemy unit."
+      },
+      "auto": {
+        "name": "Revenge Blade",
+        "cooldown": "5.0s",
+        "description": "Deals Fire damage to designated enemy unit equal to 36% of own maximum HP."
+      },
+      "ultimate": {
+        "name": "Destructive Fury",
+        "energyCost": "5",
+        "description": "Recovers 36% max HP to self. Deals Fire damage to target equal to 144% of own max HP."
+      },
+      "passive": {
+        "name": "Deep Hatred",
+        "description": "Every normal attack recovers 5.8% max HP. When HP falls below 50%: All received healing increased by 60%."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Self attack increased by 10%. Healing amount increased by 12.5%.",
+      "requirements": {
+        "faction": "Avalon",
+        "element": "Fire"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Damage taken reduced by 10%"
+      },
+      {
+        "level": 2,
+        "effect": "Each normal attack increases own defense by 5%, can stack up to maximum 10 times"
+      },
+      {
+        "level": 3,
+        "effect": "[Auto Skill] and [Normal Attack] level and level cap +4. Increases damage output across her core abilities"
+      },
+      {
+        "level": 4,
+        "effect": "HP increased by 30%."
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4. Enhances her biggest nuke and sustain mechanics"
+      },
+      {
+        "level": 6,
+        "effect": "Normal attacks additionally deal Fire damage equal to 5% of own max HP."
+      }
+    ],
+    "memoryCard": {
+      "name": "Behind the Regret",
+      "image": "mordredcard",
+      "stats": {
+        "hp": "5,000",
+        "attack": "500",
+        "defense": "500"
+      },
+      "effects": [
+        "HP increased by 24%",
+        "Self healing amount increased by 30%"
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "name": "Morgan Le Fay",
+    "slug": "morgan-le-fay",
+    "rarity": "SSR",
+    "element": "Holy",
+    "class": "Buffer",
+    "role": "Buffer",
+    "faction": "Avalon",
+    "tags": [
+      "Melee",
+      "Buff",
+      "Attack Boost",
+      "Defense Boost"
+    ],
+    "image": "/images/games/zone-nova/characters/Morgan.jpg",
+    "detailUrl": "/guides/zone-nova/characters/morgan-le-fay",
+    "stats": {
+      "hp": 8180,
+      "attack": 1004,
+      "defense": 728,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Crushing Strike",
+        "description": "Deals 120% of Attack as Holy DMG to the target enemy."
+      },
+      "auto": {
+        "name": "Glory Ode",
+        "cooldown": "5.0s",
+        "description": "Grants all allies [Blessing]. While [Blessing] is active, the character's DMG dealt is increased by 36% and DMG taken is reduced by 12%. [Blessing] disappears after taking 5 instances of DMG or after 10s."
+      },
+      "ultimate": {
+        "name": "Holy Sword Summon",
+        "energyCost": "3",
+        "description": "Drops a [Destruction Holy Sword] at the position of the ally with the highest ATK, dealing 240% ATK as Holy DMG to all enemies within a 5m radius, and increases all allies within range's ATK by 60% and DMG dealt by 48% for 10s.\n\nDrops a [Guardian Holy Sword] at the position of the ally with the highest DEF, dealing 240% ATK as Holy DMG to all enemies within a 5m radius, and increases all allies within range's DEF by 60% and reduces DMG taken by 19% for 10s."
+      },
+      "passive": {
+        "name": "King's Advent",
+        "description": "Upon entering battle, immediately gains 3 Energy and Energy gain efficiency is reduced by 30% for 10s.\n\nUpon entering battle, 29% of Morgan Le Fay's ATK/DEF/HP is converted and transferred to the ally with the highest ATK/DEF/HP respectively.\n\nEach time Morgan Le Fay uses a skill, immediately gain 1 Energy."
+      }
+    },
+    "teamSkill": {
+      "name": "Team Tech",
+      "description": "When the team contains 2 [Avalon] characters or 2 [Holy] characters:\n\nAt the start of battle, all allies' DMG dealt is increased by 10%.\n\nFor every 500 ATK, all allies' DMG dealt is increased by an additional 5%, up to 6 times.",
+      "requirements": {
+        "faction": "Avalon",
+        "element": "Holy"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "The passive effect [Upon entering battle, immediately gain 3 Energy and Energy gain efficiency is reduced by 30% for 10s] is changed to [Upon entering battle, immediately gain 5 Energy]."
+      },
+      {
+        "level": 2,
+        "effect": "Upon entering battle, all allies immediately gain [Blessing]."
+      },
+      {
+        "level": 3,
+        "effect": "[Normal Attack], [Skill], [Ultimate], and [Passive] level and level cap +2."
+      },
+      {
+        "level": 4,
+        "effect": "All allies can gain the conversion ability from the passive effect."
+      },
+      {
+        "level": 5,
+        "effect": "[Normal Attack], [Skill], [Ultimate], and [Passive] level and level cap +2."
+      },
+      {
+        "level": 6,
+        "effect": "[Destruction Holy Sword] additionally increases all allies within range's Elemental RES PEN by 10%.\n\n[Guardian Holy Sword] additionally increases all allies within range's Elemental RES by 10%."
+      }
+    ],
+    "memoryCard": {
+      "name": "Absolutely Perfect Arms",
+      "image": "Morgancard",
+      "stats": {
+        "hp": "7,800",
+        "attack": "780",
+        "defense": "780"
+      },
+      "effects": [
+        "ATK increased by 30%",
+        "DEF increased by 30%",
+        "HP increased by 30%",
+        "When the equipper is of Holy attribute, after dealing Normal Attack DMG, all allies' Energy gain efficiency is increased by 18%, stacking up to 4 times, lasting 5s"
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "name": "Naiya",
+    "slug": "naiya",
+    "rarity": "SSR",
+    "element": "Ice",
+    "class": "Buffer",
+    "role": "Buffer",
+    "faction": "Sapphire",
+    "tags": [
+      "Ranged",
+      "Buff",
+      "Crit Damage",
+      "Energy",
+      "Attack Boost",
+      "Damage Boost",
+      "Interrupt"
+    ],
+    "image": "/images/games/zone-nova/characters/Naiya.jpg",
+    "detailUrl": "/guides/zone-nova/characters/naiya",
+    "stats": {
+      "hp": 9564,
+      "attack": 1004,
+      "defense": 672,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Frost Strike",
+        "description": "Deals 120% attack power as ice damage to enemy unit"
+      },
+      "auto": {
+        "name": "War Intent Detection",
+        "cooldown": "Auto-trigger: 5.0s",
+        "description": "The friendly character with the highest attack power gains [Battle Intent]. Increases attack power by 168%, but the increased attack power cannot exceed 84% of naiya attack power. Lasts 15 seconds"
+      },
+      "ultimate": {
+        "name": "Hyper-Carry Awakening",
+        "energyCost": "3",
+        "description": "Deals 480% attack power Ice damage to  enemy unit. [Interrupts] their casting skill. Increases all friendly units' attack power by 36% and crit damage by 53.6% for 10 seconds"
+      },
+      "passive": {
+        "name": "Tactical Analysis",
+        "description": "When a character with [Battle Intent] kills an enemy, damage increases by 17% for 10 seconds, max 3 stacks. Immediately recovers 1 energy point for the entire team, can trigger once per second maximum"
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill (组合技)",
+      "description": " Battle Start: All team damage +10%. Every 500 attack power, all team damage additionally +5%, max 6 times (30%)",
+      "requirements": {
+        "faction": "Sapphire",
+        "element": "Ice"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "After using ultimate: All friendly units' attack power increased by 20% for 20 seconds. "
+      },
+      {
+        "level": 2,
+        "effect": "When characters with [Battle Intent] defeat an enemy: Recovers 1 energy for the team. can trigger at most once per second (with passive it become 2)."
+      },
+      {
+        "level": 3,
+        "effect": "Skill and Normal Attack: Level and level cap increased by +4"
+      },
+      {
+        "level": 4,
+        "effect": "Characters with [Battle Intent] when attacking: Deal an additional 500% attack power as ice damage. Triggers at most once every 10 seconds. "
+      },
+      {
+        "level": 5,
+        "effect": "Ultimate Skill and Passive: Level and level cap increased by +4"
+      },
+      {
+        "level": 6,
+        "effect": "Ultimate skill duration extended to 20 seconds. Damage increased by 100%. "
+      }
+    ],
+    "memoryCard": {
+      "name": "Frost Dominion",
+      "image": "naiyacard",
+      "stats": {
+        "hp": "6,000",
+        "attack": "600",
+        "defense": "600"
+      },
+      "effects": [
+        " Attack power increased by 40%. After the equipped character releases ultimate skill, the entire team gains ultimate skill damage increased by 40%, lasting 30 seconds"
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "name": "Nina",
+    "slug": "nina",
+    "rarity": "SSR",
+    "element": "Ice",
+    "class": "Warrior",
+    "role": "DPS",
+    "faction": "Sapphire",
+    "tags": [
+      "Crit Rate",
+      "Healing",
+      "Burst Damage",
+      "Mode Switch",
+      "Attack Speed"
+    ],
+    "image": "/images/games/zone-nova/characters/Nina.jpg",
+    "detailUrl": "/guides/zone-nova/characters/nina",
+    "stats": {
+      "hp": 8700,
+      "attack": 1004,
+      "defense": 729,
+      "energyRecovery": 0.25,
+      "critRate": 6,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Frost Blood Thorn",
+        "cooldown": "2.0s",
+        "description": "Deals ice damage equal to 120% of Attack to target enemy unit, recovering 12% of max health.",
+        "frostAshDescription": "【Frost Ash】State: Each hit removes 5% of max health. Deals ice damage equal to 240% of Attack to target enemy unit."
+      },
+      "auto": {
+        "name": "Blaze Burst",
+        "cooldown": "5.0s",
+        "description": "Deals ice damage equal to 480% of Attack to target enemy unit and units behind it, recovering 12% of max health.",
+        "frostAshDescription": "【Frost Ash】State: Each hit removes 5% of max health. Deals ice damage equal to 960% of Attack to target enemy unit and units behind it."
+      },
+      "ultimate": {
+        "name": "Frost Ash Liberation",
+        "cooldown": "1.0s",
+        "energyCost": "1",
+        "description": "Enters the 【Frost Ash】 state. Basic attack speed increased by 50%. Skill base cooldown reduced to 3 seconds. Critical rate increased by 60%.",
+        "additionalRules": [
+          "Automatically exits 【Frost Ash】 state when health falls below 30%.",
+          "Can re-cast the ultimate skill to exit 【Frost Ash】 state.",
+          "Can re-cast the ultimate skill while in 【Frost Ash】 state."
+        ]
+      },
+      "passive": {
+        "name": "Indestructible Frost Mark",
+        "description": "【Frost Ash】State: Damage taken reduced by 50%. Each attack increases own attack speed by 12%, lasting 5 seconds, stacking up to 5 times."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Own attack power increased by 10%. At the start of battle, every 500 attack power increases own critical damage by 7.5%, stacking up to 6 times.",
+      "requirements": {
+        "faction": "Sapphire",
+        "element": "Ice"
+      },
+      "activationCondition": "Team contains 2 【Sapphire】 characters OR 2 【Ice】 characters"
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "After killing an enemy, immediately recovers 20% of max health. Enters 【Frost Ash】 state immediately upon entering battle. While in 【Frost Ash】 state, all damage is increased by 20%."
+      },
+      {
+        "level": 2,
+        "effect": "When health drops to 35% or below, immediately recovers 50% of max health (can trigger once per battle). While in 【Frost Ash】 state, critical rate is additionally increased by 15%."
+      },
+      {
+        "level": 3,
+        "effect": "[Basic Attack], [Skill], [Ultimate Skill], and [Passive] level and level cap +2."
+      },
+      {
+        "level": 4,
+        "effect": "Ice damage increased by 30%."
+      },
+      {
+        "level": 5,
+        "effect": "[Basic Attack], [Skill], [Ultimate Skill], and [Passive] level and level cap +2."
+      },
+      {
+        "level": 6,
+        "effect": "While in 【Frost Ash】 state, all damage penetrates 20% ice resistance."
+      }
+    ],
+    "memoryCard": {
+      "name": "Halloween Candy",
+      "image": "Ninacard",
+      "title": "Halloween Candy",
+      "stats": {
+        "hp": "6,000",
+        "attack": "600",
+        "defense": "600"
+      },
+      "effects": [
+        "Critical damage increased by 60%.",
+        "When health is above 30%, equipped character recovers 2% of max health after attacking; all damage increased by 40%."
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "name": "Nini",
+    "slug": "nini",
+    "rarity": "SR",
+    "element": "Ice",
+    "class": "Debuffer",
+    "role": "Debuffer",
+    "faction": "Monochrome Nation",
+    "tags": [
+      "Ranged",
+      "Debuff",
+      "Damage Taken Increase"
+    ],
+    "image": "/images/games/zone-nova/characters/Nini.jpg",
+    "detailUrl": "/guides/zone-nova/characters/nini",
+    "stats": {
+      "hp": 7970,
+      "attack": 837,
+      "defense": 560,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Suppressive Fire (压制射击)",
+        "description": "Deals 120% attack power as ice damage to enemy unit"
+      },
+      "auto": {
+        "name": "Steel Charge (钢铁冲锋)",
+        "cooldown": "Auto-trigger: 5.0s",
+        "description": "Deals 60% attack power as ice damage to all enemy in fronts. Applies Weakness debuff: Reduces enemy damage by 5.8% per stack. Maximum 3 stacks, lasts 10 seconds"
+      },
+      "ultimate": {
+        "name": "Black Nation's Glory (黑色带国的荣耀)",
+        "energyCost": "3",
+        "description": "Deals 84% attack power as ice damage to all enemy in front. Increases damage taken by 38% for 10 seconds"
+      },
+      "passive": {
+        "name": "Battle Fanatic (战斗狂热分子)",
+        "description": "When attacking enemies with negative status effects: Damage increased by 38%."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill (组合技)",
+      "description": "Self damage dealt increases by 20%",
+      "requirements": {
+        "faction": "Monochrome Nation",
+        "element": "Ice"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "When using auto kill to attack targets with negative effects: Skill damage increased by 30%."
+      },
+      {
+        "level": 2,
+        "effect": "[Weakness] can stack up to 5 layers."
+      },
+      {
+        "level": 3,
+        "effect": "[Skill] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "Auto skill additionally makes target receive 10% more ice damage."
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "When skill hits target with HP below 50%: Immediately applies [Weakness]."
+      }
+    ],
+    "memoryCard": {
+      "name": "Battlefield Flower",
+      "image": "ninicard",
+      "stats": {
+        "hp": "5,000",
+        "attack": "500",
+        "defense": "500"
+      },
+      "effects": [
+        "For each negative effect on the attacked target, this character damage increases by 20%, maximum stacking 3 layers (60%)"
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "name": "Odin",
+    "slug": "odin",
+    "rarity": "SSR",
+    "element": "Fire",
+    "class": "Rogue",
+    "role": "DPS",
+    "faction": "A.S.A",
+    "tags": [
+      "Ranged",
+      "DOT",
+      "Damage Reduction",
+      "Penetration"
+    ],
+    "image": "/images/games/zone-nova/characters/Odin.jpg",
+    "detailUrl": "/guides/zone-nova/characters/odin",
+    "stats": {
+      "hp": 7308,
+      "attack": 1305,
+      "defense": 530,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Soul Reap",
+        "cooldown": "1.0s",
+        "description": "Deals 120% ATK as Fire damage to a single target."
+      },
+      "auto": {
+        "name": "Falling Flame",
+        "cooldown": "5.0s",
+        "description": "Deals 3 hits of 120% ATK as Fire damage and applies 1 stack of [Divine Flame]."
+      },
+      "ultimate": {
+        "name": "Judgment Strike",
+        "energyCost": "2",
+        "cooldown": "1.0s",
+        "description": "After casting, you may chain three segments within 4 s:\n1. Dash to target, deal 480% ATK Fire damage + apply [Divine Flame].\n2. Leap backward, deal 480% ATK Fire damage + apply [Divine Flame].\n3. Jump & charge, deal 480% ATK Fire damage; each DoT stack on the target adds another 48% ATK Fire damage (max 20 extra hits)."
+      },
+      "passive": {
+        "name": "Raven's Insight",
+        "description": "All Odin's damage counts as DoT and cannot crit.\nPre-battle: every 1% crit rate -> +1% Fire dmg; every 2% crit dmg -> +1% ATK.\nSkills / ultimates apply [Divine Flame]: every 3 s deals 36% ATK Fire damage, stacks up to 10, lasts 10 s."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "If the party has 2 A.S.A or 2 Fire characters:\nATK +10%.\nAt battle start, every 500 ATK grants +3% Penetration (max 6 times).",
+      "requirements": {
+        "faction": "A.S.A",
+        "element": "Fire"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Targets without [Divine Flame] instantly receive 5 stacks; +20 % DoT for 5 s after ultimate; 50 % damage reduction during ultimate."
+      },
+      {
+        "level": 2,
+        "effect": "Ultimate third-segment extra hits cap raised to 30; enemies with [Divine Flame] take +20 % DoT from Odin."
+      },
+      {
+        "level": 3,
+        "effect": "Normal / Skill / Ultimate / Passive level cap +2."
+      },
+      {
+        "level": 4,
+        "effect": "Fire damage +30 %."
+      },
+      {
+        "level": 5,
+        "effect": "Normal / Skill / Ultimate / Passive level cap +2."
+      },
+      {
+        "level": 6,
+        "effect": "Every 3 ultimates, next normal attack becomes a skill; Odin's DoT ignores 20 % Fire resistance."
+      }
+    ],
+    "memoryCard": {
+      "name": "Shared Bath Time",
+      "image": "Odincard",
+      "stats": {
+        "hp": "5,040",
+        "attack": "780",
+        "defense": "474"
+      },
+      "effects": [
+        "ATK +40 %; ultimate damage +40 % for the caster.",
+        "After each ultimate, gain 1 [Charge]. When dealing damage, consume [Charge] to apply 1 stack of [Final Flame]: deals 15 % ATK Fire damage every 2 s, stacks up to 5, lasts 10 s."
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "name": "Penny",
+    "slug": "penny",
+    "rarity": "SSR",
+    "element": "Wind",
+    "class": "Guardian",
+    "role": "Tank",
+    "faction": "Sapphire",
+    "tags": [
+      "Defense Scaling",
+      "Shield",
+      "Damage Reduction",
+      "Buff",
+      "Melee"
+    ],
+    "image": "/images/games/zone-nova/characters/penny.jpg",
+    "detailUrl": "/guides/zone-nova/characters/penny",
+    "stats": {
+      "hp": 10520,
+      "attack": 794,
+      "defense": 1232,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Shield Impact",
+        "description": "Deals Wind damage equal to 120% of own defense to target enemy."
+      },
+      "auto": {
+        "name": "Divine Shield Wind",
+        "cooldown": "5.0s",
+        "description": "Deals Wind damage equal to 120% of own defense to target enemy, and reduces damage taken by self for 10 seconds by 24%."
+      },
+      "ultimate": {
+        "name": "Shield of Aethyss",
+        "energyCost": "5",
+        "description": "All allied characters gain a shield equal to 60% of your defense(Penny), and take 24% less damage for 10 seconds."
+      },
+      "passive": {
+        "name": "Aethyss's Call for Help",
+        "description": "After taking damage, gain 1 stack of [Fortitude], increasing own defense by 4.8%, max 30 stacks."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Own defense increases by 15%. At battle start, every 500 defense reduces team damage taken by 1.5%, max 6 times.",
+      "requirements": {
+        "faction": "Sapphire",
+        "element": "Wind"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "After taking damage, additionally gain 1 stack of [Fortitude]"
+      },
+      {
+        "level": 2,
+        "effect": "When [Fortitude] reaches 30 stacks, all allies get the same shield & damage-reduction as your Ultimate (60 % DEF shield + 24 % damage reduction for 10 s) Can only happen once per battle."
+      },
+      {
+        "level": 3,
+        "effect": "[Skill] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "Defense increased by 45%"
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "All resistance increased by 15%, Wind resistance additionally increased by 15%"
+      }
+    ],
+    "memoryCard": {
+      "name": "Her Trainer",
+      "image": "pennycard",
+      "stats": {
+        "hp": "8,600",
+        "attack": "480",
+        "defense": "690"
+      },
+      "effects": [
+        "Defense increased by 60%",
+        "After using ultimate skill, equipped character takes 10% less damage for 5 seconds",
+        "Shield amount applied by ultimate skills increased by 20%"
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "name": "Rose",
+    "slug": "rose",
+    "rarity": "SR",
+    "element": "Ice",
+    "class": "Mage",
+    "role": "DPS",
+    "faction": "Monochrome Nation",
+    "tags": [
+      "Ranged",
+      "AOE",
+      "Crit Rate",
+      "Normal Attack",
+      "Attack Speed"
+    ],
+    "image": "/images/games/zone-nova/characters/Rose.jpg",
+    "detailUrl": "/guides/zone-nova/characters/rose",
+    "stats": {
+      "hp": 6694,
+      "attack": 1088,
+      "defense": 442,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Shatter! Shatter! Shatter! (碎！碎！碎！)",
+        "description": "Deals ice damage equal to 96% of Attack to designated enemy. Enhanced (during Frost Cannon): Deals ice damage equal to 96% of Attack to enemy and surrounding 2-meter range"
+      },
+      "auto": {
+        "name": "Bullet Hell Scatter (弹幕散射)",
+        "cooldown": "10.0s",
+        "description": "Base: Deals ice damage equal to 180% of Attack to enemy. Enhanced (during Frost Cannon): Deals ice damage equal to 180% of Attack to enemy and surrounding 4-meter range"
+      },
+      "ultimate": {
+        "name": "Frost Cannon Transformation",
+        "energyCost": "8",
+        "description": "Enters [Frost Cannon] state for 10 seconds. Increases attack speed by 58%. Gains enhanced normal attacks and enhanced skills. All abilities become AoE during this state"
+      },
+      "passive": {
+        "name": "Reckless Spirit's Foundation (冒失鬼的底蕴)",
+        "description": "Each normal attack increases critical rate by 2.4%. Maximum 20 stacks (48% maximum critical rate increase)."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Self ice damage increases by 20%.",
+      "requirements": {
+        "faction": "Monochrome Nation",
+        "element": "Ice"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "When in [Frost Cannon] state, critical rate increases by 15%."
+      },
+      {
+        "level": 2,
+        "effect": "When in [Frost Cannon] state, damage taken reduced by 10%."
+      },
+      {
+        "level": 3,
+        "effect": "[Skill] and [Normal Attack] level and level cap +4. Essential skill level upgrade"
+      },
+      {
+        "level": 4,
+        "effect": "Normal attack damage increases by 20%."
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4. Essential skill level upgrade"
+      },
+      {
+        "level": 6,
+        "effect": "[Frost Cannon] state duration becomes 15 seconds."
+      }
+    ],
+    "memoryCard": {
+      "name": "During Military Academy Training",
+      "image": "Rosecard",
+      "stats": {
+        "hp": "4,200",
+        "attack": "650",
+        "defense": "395"
+      },
+      "effects": [
+        "After using ultimate skill, normal attack and Auto skill damage increased by 60% for 10 seconds"
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "name": "Shanna",
+    "slug": "shanna",
+    "rarity": "SR",
+    "element": "Fire",
+    "class": "Rogue",
+    "role": "DPS",
+    "faction": "Sapphire",
+    "tags": [
+      "Melee",
+      "Normal Attack",
+      "Crit Rate",
+      "Crit Damage",
+      "Buff"
+    ],
+    "image": "/images/games/zone-nova/characters/Shanna.jpg",
+    "detailUrl": "/guides/zone-nova/characters/shanna",
+    "stats": {
+      "hp": 6694,
+      "attack": 1088,
+      "defense": 442,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Light Strike",
+        "description": "Deals fire damage equal to 120% of Attack to enemy unit."
+      },
+      "auto": {
+        "name": "Big! Big! Big! Treasure Sword!",
+        "cooldown": "5.0s",
+        "description": "Deals fire damage equal to 240% of Attack to enemy unit"
+      },
+      "ultimate": {
+        "name": "Flawless Sword",
+        "energyCost": "3",
+        "description": "Rushes to enemy and deals fire damage equal to 480% of Attack"
+      },
+      "passive": {
+        "name": "Heroes Won't Retreat in Battle! (被动英雄不会临阵退缩！)",
+        "description": "When normal attacks hit the same target, gain 2 layers of [Focus], each layer increases critical rate by 2.8%, maximum 10 layers"
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Self damage increased by 20%",
+      "requirements": {
+        "faction": "Sapphire",
+        "element": "Fire"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "When [Focus] reaches 10 stacks: Normal attacks additionally deal 20% of Attack as fire damage"
+      },
+      {
+        "level": 2,
+        "effect": "Each normal attack targeting same enemy: Additionally adds one [Focus] stack"
+      },
+      {
+        "level": 3,
+        "effect": "[Skills] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "Auto Skill damage increased by 30%"
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "When [Focus] reaches 10 stacks: Normal attack critical hit damage increased by 50%"
+      }
+    ],
+    "memoryCard": {
+      "name": "Heroes, Never Stop",
+      "image": "Shannacard",
+      "stats": {
+        "hp": "4,200",
+        "attack": "650",
+        "defense": "395"
+      },
+      "effects": [
+        "When the number of enemies on field is less than 2: Increase critical hit damage by 72%"
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "name": "Sigurd",
+    "slug": "sigurd",
+    "rarity": "SSR",
+    "element": "Fire",
+    "class": "Rogue",
+    "role": "DPS",
+    "faction": "A.S.A",
+    "tags": [
+      "Melee",
+      "Crit Damage",
+      "Enhanced Ultimate",
+      "Crit Rate"
+    ],
+    "image": "/images/games/zone-nova/characters/Sigurd.jpg",
+    "detailUrl": "/guides/zone-nova/characters/sigurd",
+    "stats": {
+      "hp": 7308,
+      "attack": 1305,
+      "defense": 474,
+      "energyRecovery": 0.25,
+      "critRate": 16,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Flame Slash",
+        "cooldown": "2.0s",
+        "description": "Deals 120% attack damage as Fire damage to the designated enemy unit."
+      },
+      "auto": {
+        "name": "Flame Blade Thrust",
+        "cooldown": "5.0s",
+        "description": "Deals 629.6% attack damage as Fire damage to a designated enemy unit and grants the caster 1 stack of Dragon's Blood, up to a maximum of 4 stacks."
+      },
+      "ultimate": {
+        "name": "Burning Dragon Blade",
+        "energyCost": "3",
+        "cooldown": "1.0s",
+        "description": "Deals 840% attack power as Fire damage to a designated enemy unit. Upon defeating the enemy, triggers [Explosion], dealing 610.1% damage in a circular area with a radius of 4 centered on the target unit. [Enhanced Ultimate Skill] can be used when [Dragon Blood] has 2 or more stacks, consuming 2 stacks of [Dragon Blood] upon use. [Enhanced Ultimate Skill]: Deals 1200% attack power as Fire damage to a designated enemy unit."
+      },
+      "passive": {
+        "name": "Flame Shadow Pursuit",
+        "description": "When a Ultimate Skill or skill crits, it deals an additional instance of Fire damage equal to 121.5% attack power. This can only be triggered once every 0.5 seconds."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Self Critical Rate increases by 7.5%. At battle start, every 15% Critical Rate increases self Critical Damage by 7.5%, up to 6 times.",
+      "requirements": {
+        "faction": "A.S.A",
+        "element": "Fire"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Gain one [Enhanced Ultimate Skill] at the start of battle. Increase critical hit rate by 10%."
+      },
+      {
+        "level": 2,
+        "effect": "Gain 2 stacks of [Dragon Blood] each time a skill is used. Gain 1 stack of [Dragon Blood] after using an ultimate skill."
+      },
+      {
+        "level": 3,
+        "effect": "[Basic Attack], [Skill], [Ultimate Skill] and [Passive] level and level cap +2."
+      },
+      {
+        "level": 4,
+        "effect": "Fire damage increased by 30%."
+      },
+      {
+        "level": 5,
+        "effect": "[Basic Attack], [Skill], [Ultimate Skill] and [Passive] level and level cap +2."
+      },
+      {
+        "level": 6,
+        "effect": "Ultimate skill damage ignores 20% of the target's elemental resistance."
+      }
+    ],
+    "memoryCard": {
+      "name": "I am your Christmas present.",
+      "image": "Sigurdcard",
+      "stats": {
+        "hp": "5,040",
+        "attack": "780",
+        "defense": "474"
+      },
+      "effects": [
+        "Critical hit rate increased by 34%, ultimate skill damage increased by 40%.",
+        "When there is only one enemy on the field, ultimate skill damage is increased by an additional 40%."
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "name": "Shu",
+    "slug": "shu",
+    "rarity": "SR",
+    "element": "Wind",
+    "class": "Debuffer",
+    "role": "Debuffer",
+    "faction": "Chemic",
+    "tags": [
+      "Ranged",
+      "DOT",
+      "Damage Taken Increase",
+      "Debuff",
+      "AOE"
+    ],
+    "image": "/images/games/zone-nova/characters/Shu.jpg",
+    "detailUrl": "/guides/zone-nova/characters/shu",
+    "stats": {
+      "hp": 7970,
+      "attack": 837,
+      "defense": 560,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Wind Assault",
+        "description": "Deals wind damage equal to 120% of Attack to designated enemy unit"
+      },
+      "auto": {
+        "name": "Eye of the Storm",
+        "cooldown": "5.0s",
+        "description": "Deals wind damage equal to 72% of Attack to enemy unit and surrounding enemies within 4 meters"
+      },
+      "ultimate": {
+        "name": "Sticky Bat Storm",
+        "energyCost": "3",
+        "description": "Deals wind damage equal to 120% of Attack to enemies within 4 meters. Applies [Vulnerability]: Affected enemies take 34% increased damage for 15 seconds. With Awakening 6: Also applies [Weathering] debuff to affected enemies"
+      },
+      "passive": {
+        "name": "Fierce Wind Burst",
+        "description": "Auto Skills can apply Weathering: every 2 s deal 14.4% ATK wind damage per stack, max 5 stacks"
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Self damage increased by 20%",
+      "requirements": {
+        "faction": "Chemic",
+        "element": "Wind"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "When dealing damage to targets with continuous damage effects: Self attack power increases by 20%"
+      },
+      {
+        "level": 2,
+        "effect": "Continuous damage effects penetration rate increased by 10%"
+      },
+      {
+        "level": 3,
+        "effect": "[Skills] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "Continuous damage increased by 25%"
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate Skill] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "Ultimate skill can also apply [Weathering] debuff"
+      }
+    ],
+    "memoryCard": {
+      "name": "Busy Officer (忙里偷闲)",
+      "image": "shucard",
+      "stats": {
+        "hp": "5,000",
+        "attack": "500",
+        "defense": "500"
+      },
+      "effects": [
+        "When dealing continuous damage effects: Target takes 12% increased damage for 2 seconds"
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "name": "Snow Girl",
+    "slug": "snow-girl",
+    "rarity": "SR",
+    "element": "Ice",
+    "class": "Healer",
+    "role": "Healer",
+    "faction": "Pingjing City",
+    "tags": [
+      "Ranged",
+      "Damage Boost",
+      "Continuous Healing",
+      "AOE Healing"
+    ],
+    "image": "/images/games/zone-nova/characters/Snow.jpg",
+    "detailUrl": "/guides/zone-nova/characters/snow-girl",
+    "stats": {
+      "hp": 7850,
+      "attack": 837,
+      "defense": 608,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Snow Ghost Impact",
+        "chineseName": "雪鬼撞击",
+        "level": "10+4",
+        "cooldown": "2.0s",
+        "description": "Deals 120% attack power ice damage to enemy unit"
+      },
+      "auto": {
+        "name": "Ice Snow Healing",
+        "chineseName": "冰雪治愈",
+        "level": "10+4",
+        "cooldown": "5.0s",
+        "description": "Heals all friendly units, restoring HP equal to 33.6% + 182 of own attack power"
+      },
+      "ultimate": {
+        "name": "Ice Seal Protection",
+        "chineseName": "冰封庇护",
+        "level": "10+4",
+        "cooldown": "1.0s",
+        "energyCost": "3",
+        "description": "Heals all friendly units, restoring HP equal to 47.2% + 182 of own attack power"
+      },
+      "passive": {
+        "name": "Frost Blessing",
+        "chineseName": "冰霜祝福",
+        "level": "10+4",
+        "description": "Ultimate skill healing can add a 5-second continuous recovery effect to the target, recovering 75% of Snow Girls attack power + 29 HP per second"
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "chineseName": "组合技",
+      "level": "1",
+      "description": "Own attack increased by 10%, healing amount increased by 12.5%",
+      "requirements": {
+        "faction": "Pingjing City",
+        "element": "Ice",
+        "condition": "2 [Pingjing City] or 2 [Ice]"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "After ultimate skill heals friendly units, additionally increases targets damage dealt by 10% for 10 second"
+      },
+      {
+        "level": 2,
+        "effect": "Normal attacks deal additional frost damage equal to 50% of own attack power"
+      },
+      {
+        "level": 3,
+        "effect": "[Skills] and [Normal Attack] level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "Healing amount increased by 20%"
+      },
+      {
+        "level": 5,
+        "effect": "[Required Skills] and [Passive] level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "auto Skill that heal friendly units can also trigger the passives continuous recovery effect"
+      }
+    ],
+    "memoryCard": {
+      "name": "The Beauty of Heijing Castle",
+      "chineseName": "平京城的绝美",
+      "image": "Snowcard",
+      "level": "80/80",
+      "stats": {
+        "hp": "5,000",
+        "attack": "500",
+        "defense": "500"
+      },
+      "effects": [
+        "When the healed targets HP is full, targets damage is increased by 24% for 10 seconds"
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "name": "Tefnut",
+    "slug": "tefnut",
+    "rarity": "SR",
+    "element": "Holy",
+    "class": "Rogue",
+    "role": "DPS",
+    "faction": "Chemic",
+    "tags": [
+      "Melee",
+      "DOT",
+      "Penetration",
+      "DOT Damage Boost"
+    ],
+    "image": "/images/games/zone-nova/characters/Tefnut.jpg",
+    "detailUrl": "/guides/zone-nova/characters/tefnut",
+    "stats": {
+      "hp": 6694,
+      "attack": 1088,
+      "defense": 442,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Claw Strike",
+        "description": "Deals 120% of Attack as holy damage to designated enemy unit"
+      },
+      "auto": {
+        "name": "Ruthless Hunt",
+        "cooldown": "5.0s",
+        "description": "Deals holy damage equal to 240% of Attack to designated enemy unit."
+      },
+      "ultimate": {
+        "name": "Bloodthirsty Killing",
+        "energyCost": "8",
+        "description": "Jump towards designated enemy unit and deal 960% attack power holy damage When attacking targets with [Sacred Hatred] at maximum stacks, additionally apply [Light Erosion] [Light Erosion]: Deals damage every 3 seconds, each layer deals 180% attack power holy damage, maximum 1 layer"
+      },
+      "passive": {
+        "name": "Bloodthirst",
+        "description": "Auto Skills can apply [Sacred Hatred][Sacred Hatred]: Deals damage every 2 seconds, each layer deals 24% attack power holy damage, maximum 5 layers"
+      }
+    },
+    "teamSkill": {
+      "name": "Combo Skill",
+      "description": "Self damage dealt increases by 20%",
+      "requirements": {
+        "faction": "Chemic",
+        "element": "Holy"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "When attacking targets that have [Continuous damage], penetration rate increases by 10%"
+      },
+      {
+        "level": 2,
+        "effect": "When self HP is 100%, attack power increases by 20%"
+      },
+      {
+        "level": 3,
+        "effect": "[Skills] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "[Continuous Damage] damage increased by 25%"
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "[Ultimate skill] additionally makes the target take 20% increased [Continuous damage] damage, lasts 15 seconds"
+      }
+    ],
+    "memoryCard": {
+      "name": "Secret Room Reality",
+      "image": "Tefnutcard",
+      "stats": {
+        "hp": "4,200",
+        "attack": "650",
+        "defense": "395"
+      },
+      "effects": [
+        "Continuous Damage Penetration Rate +36%"
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "name": "Thor",
+    "slug": "thor",
+    "rarity": "SSR",
+    "element": "Holy",
+    "class": "Guardian",
+    "role": "Tank",
+    "faction": "A.S.A",
+    "tags": [
+      "Enhanced Ultimate",
+      "Defense Scaling",
+      "DOT",
+      "Melee",
+      "Interrupt",
+      "Shield",
+      "Continuous Shielding",
+      "Damage Reduction",
+      "Damage Taken Increase",
+      "AOE Shielding"
+    ],
+    "image": "/images/games/zone-nova/characters/Thor.jpg",
+    "detailUrl": "/guides/zone-nova/characters/thor",
+    "stats": {
+      "hp": 10520,
+      "attack": 698,
+      "defense": 1315,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Justice Crush (正义碾压)",
+        "description": "Deal Holy damage equal to 120% of own Defense to designated enemy unit."
+      },
+      "auto": {
+        "name": "Divine Judgment Resonance (神罚共鸣)",
+        "cooldown": "10.0s",
+        "description": "Raise the hammer to absorb lightning power, granting all allied characters a shield equal to 60% of own Defense, and reducing damage taken by 12%. Connected allies receive an additional 12% damage reduction. After Thor casts this skill, her next 3 basic attacks are enhanced with [Divine Judgment]."
+      },
+      "ultimate": {
+        "name": "Divine Punishment Hammer (神罚之锤)",
+        "energyCost": "2",
+        "description": "Normal Ultimate: Jump onto the target's head, after charging for 1 second, deal Holy damage equal to 120% of own Defense to the current target and [Interrupt] the skill being cast. Enhanced Ultimate: Jump onto the target's head, after charging for 1 second, deal Holy damage equal to 240% of own Defense to the target and surrounding enemies within 5 meters, [Interrupt] skills being cast, and increase damage taken by 24% for 10 seconds. After Thor casts the ultimate skill, all allied characters take 24% less damage for 10 seconds."
+      },
+      "passive": {
+        "name": "Lightning Extreme Orbit (极端雷电轨道)",
+        "description": "Immediately gain a shield equal to 30% of maximum health, and establish connections with the two allies with the lowest defense. When Thor or connected allies take damage, Thor gains 1 stack of [Lightning Extreme]. Each character can trigger this at most once per second. When [Lightning Extreme] reaches 10 stacks, can cast [Enhanced Ultimate]. When enhanced ultimate is cast, no longer accumulate [Lightning Extreme] stacks. When dealing damage with ultimate skill, can apply [Divine Judgment]. [Divine Judgment]: Every 3 seconds, deal Holy damage equal to 19.2% of Defense, maximum 5 stacks. Shield can stack up to maximum 30% of the character's maximum health."
+      }
+    },
+    "teamSkill": {
+      "name": "Team Synergy",
+      "description": "When the team contains 2 [A.S.A] characters or 2 [Holy] characters: Own Defense increased by 15%. At the start of battle, every 500 Defense reduces team damage taken by 1.5%, maximum 6 stacks.",
+      "requirements": {
+        "faction": "A.S.A",
+        "element": "Holy"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Immediately gain 10 stacks of [Lightning Extreme] at the start of battle. Connect to the two allies with the lowest defense."
+      },
+      {
+        "level": 2,
+        "effect": "Connected allies gain 30% increased attack. After casting enhanced ultimate, grant all allied characters a shield equal to 10% of Defense every 2 seconds for 10 seconds."
+      },
+      {
+        "level": 3,
+        "effect": "[Basic Attack], [Skill], [Ultimate], and [Passive] level and level cap +2"
+      },
+      {
+        "level": 4,
+        "effect": "Defense increased by 45%"
+      },
+      {
+        "level": 5,
+        "effect": "[Basic Attack], [Skill], [Ultimate], and [Passive] level and level cap +2"
+      },
+      {
+        "level": 6,
+        "effect": "All resistance increased by 15%, Holy resistance additionally increased by 15%. Targets hit by Thor's ultimate gain 1 additional stack of [Divine Judgment] per second for 5 seconds."
+      }
+    ],
+    "memoryCard": {
+      "name": "Night Assault Suspect",
+      "image": "Thorcard",
+      "stats": {
+        "hp": "6,600",
+        "attack": "480",
+        "defense": "690"
+      },
+      "effects": [
+        "Defense increased by 64%",
+        "When allied characters with shields take damage, Defense increased by 64%",
+        "When the equipper deals continuous damage to enemy targets, increase damage taken by the target by 15% for 5 seconds"
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "name": "Yuis",
+    "slug": "yuis",
+    "rarity": "SSR",
+    "element": "Holy",
+    "class": "Rogue",
+    "role": "DPS",
+    "faction": "Odius",
+    "tags": [
+      "Ranged",
+      "Crit Rate",
+      "Crit Damage",
+      "Enhanced Ultimate",
+      "Extra Attack"
+    ],
+    "image": "/images/games/zone-nova/characters/Yuis.jpg",
+    "detailUrl": "/guides/zone-nova/characters/yuis",
+    "stats": {
+      "hp": 8033,
+      "attack": 1305,
+      "defense": 530,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Thunder Strike",
+        "description": "Deals 120% attack power as Holy damage to enemy unit"
+      },
+      "auto": {
+        "name": "Divine Thunder",
+        "cooldown": "5.0s",
+        "description": "Immediately gain 2 layers [Sky Extreme], and fire 4 flying swords, deal 720% attack power to current target holy damage"
+      },
+      "ultimate": {
+        "name": "Absolute Heaven's Punishment",
+        "energyCost": "4",
+        "description": "Immediately gain 2 layers [Sky Extreme], and fire 1 large flying sword, deal 720% attack power holy damage to current target. [Enhanced Ultimate Skill]: Consume all [Sky Extreme], lock onto current target and continuously drop flying swords, dealing a total of 1440% attack power holy damage, this damage is considered [Extra Attack] damage. Repeatedly using enhanced ultimate skill to attack target can refresh [Extra Attack] duration"
+      },
+      "passive": {
+        "name": "Heaven's Judgment",
+        "description": "When other friendly units use ultimate skills, Yuis gains 2 layers [Sky Extreme] When other friendly units perform [Extra Attack], Yuis gains 2 layers [Sky Extreme] When having 16 layers [Sky Extreme], can cast [Enhanced Ultimate Skill] When able to cast [Enhanced Ultimate Skill], no longer gain [Sky Extreme] After casting [Enhanced Ultimate Skill], critical rate increases by 24% and critical damage increases by 48% for 20 seconds"
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Self attack power increases by 10%. At battle start, every 500 attack power increases self crit damage by 7.5%, maximum 6 times (45% max)",
+      "requirements": {
+        "faction": "Odius",
+        "element": "Holy"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "At battle start: Immediately gain 16 stacks of [Heaven's Punishment]. [Enhanced Ultimate] energy consumption reduced by 3"
+      },
+      {
+        "level": 2,
+        "effect": "After casting enhanced ultimate skill, immediately gain 4 layers [Sky Extreme], and critical damage increases by 30% for 20 seconds"
+      },
+      {
+        "level": 3,
+        "effect": "[Skill] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "Holy damage increased by 30%"
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "After Yuis deals 12 extra attack damages to the same target, additionally drop one large sword, dealing 150% attack power holy damage, this damage is considered extra attack damage Yuis's extra attack damage penetrates 20% elemental resistance"
+      }
+    ],
+    "memoryCard": {
+      "name": "Frozen Heart",
+      "image": "Yuiscard",
+      "stats": {
+        "hp": "5,040",
+        "attack": "780",
+        "defense": "474"
+      },
+      "effects": [
+        "Crit rate increased by 34%. Equipment wearers extra attack damage, critical damage increases by 68% "
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "name": "Zashiki-warashi",
+    "slug": "zashiki-warashi",
+    "rarity": "SR",
+    "element": "Fire",
+    "class": "Buffer",
+    "role": "Buffer",
+    "faction": "Pingjing City",
+    "tags": [
+      "Ranged",
+      "Buff",
+      "Attack Boost",
+      "Damage Boost",
+      "Crit Rate"
+    ],
+    "image": "/images/games/zone-nova/characters/Zashiki-warashi.jpg",
+    "detailUrl": "/guides/zone-nova/characters/zashiki-warashi",
+    "stats": {
+      "hp": 7970,
+      "attack": 837,
+      "defense": 560,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Housekeeper Guidance",
+        "description": "Deals fire damage equal to 120% of Attack to enemy"
+      },
+      "auto": {
+        "name": "Five Grains Harvest",
+        "cooldown": "5.0s",
+        "description": "All allied units gain 36% attack power. Attack power cap: Cannot exceed 36% of Zashiki-warashi's entry attack power. Maximum 1 layer, lasts 15 seconds"
+      },
+      "ultimate": {
+        "name": "Share Fortune! Share Hardship!",
+        "energyCost": "3",
+        "description": "All friendly units damage dealt increases by 36%, lasts 15 seconds"
+      },
+      "passive": {
+        "name": "Child's Blessing",
+        "description": "After using auto skill: The allied unit with highest attack power gains one layer [Blessing]. [Blessing] Effect: Increases attack power by 60% for 15 seconds"
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Team attack power increases by 10%. Team defense increases by 10%",
+      "requirements": {
+        "faction": "Pingjing City",
+        "element": "Fire"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "After entering battle, all friendly units attack power increases by 15%, lasts 30 seconds"
+      },
+      {
+        "level": 2,
+        "effect": "When using ultimate: Characters with [Blessing] additionally gain 15% damage increase"
+      },
+      {
+        "level": 3,
+        "effect": "[Skill] and [Normal Attack] level and level cap +4"
+      },
+      {
+        "level": 4,
+        "effect": "After using Auto skill: All allied units gain 10% critical rate for 5 seconds"
+      },
+      {
+        "level": 5,
+        "effect": "[Ultimate] and [Passive] level and level cap +4"
+      },
+      {
+        "level": 6,
+        "effect": "When using ultimate: Characters with [Blessing] gain double ultimate effect"
+      }
+    ],
+    "memoryCard": {
+      "name": "Sleep Treasure",
+      "image": "Zashiki-warashicard",
+      "stats": {
+        "hp": "5,000",
+        "attack": "500",
+        "defense": "500"
+      },
+      "effects": [
+        "After casting ultimate skill, make team damage increase by 24%, lasts 10 seconds; additionally has 50% chance to make team critical damage additionally increase by 20%, lasts 10 seconds"
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "name": "Freya",
+    "slug": "freya",
+    "rarity": "SSR",
+    "element": "Ice",
+    "class": "Mage",
+    "role": "DPS",
+    "faction": "A.S.A",
+    "tags": [
+      "Ranged",
+      "Crit Damage",
+      "Crit Rate",
+      "Normal Attack",
+      "Attack Speed",
+      "AOE"
+    ],
+    "image": "/images/games/zone-nova/characters/Freya.jpg",
+    "detailUrl": "/guides/zone-nova/characters/freya",
+    "stats": {
+      "hp": 7308,
+      "attack": 1193,
+      "defense": 474,
+      "energyRecovery": 0.25,
+      "critRate": 16.8,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Golden Wind Assault (金风突袭)",
+        "description": "Deals 72% attack power as ice frost damage to designated enemy."
+      },
+      "auto": {
+        "name": "Golden Wind's Wild Poetry (金风狂诗)",
+        "cooldown": "5.0s",
+        "description": "Deals 120% attack power as ice frost damage to designated enemy and other targets within 3m range around the target. This damage counts as normal attack damage."
+      },
+      "ultimate": {
+        "name": "Golden Wind's Bind (金风之缚)",
+        "energyCost": "3",
+        "description": "Enters [Golden Desire] State for 8 seconds: Normal attacks additionally hit targets within 5m range for 60% original attack damage, base attack speed increases by 50%, attack speed boost increases by 60%. During [Golden Desire] State: Cannot use other skills but can use [Ice Star] ability. [Ice Star]: Deals 480% attack power as ice damage to target. This damage counts as normal attack damage."
+      },
+      "passive": {
+        "name": "Goddess War Dance (女神战舞)",
+        "description": "Ice Enhancement: All normal attacks additionally deal 24% attack power as ice frost damage. Multi-Hit Combo: After casting 10 normal attacks or skills, normal attacks against the main target become 5-stage attacks. Each stage deals 20% of original normal attack damage. Duration: 5 seconds."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill (组合技)",
+      "description": "Critical Rate increases by 7.5%. At combat start: For every 15% Critical Rate, gain 7.5% Critical Damage (maximum 6 stacks, up to 45% bonus critical damage).",
+      "requirements": {
+        "faction": "A.S.A",
+        "element": "Ice"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "During [Golden Desire] state: Attack Power +30% and Damage Taken -30%."
+      },
+      {
+        "level": 2,
+        "effect": "Immediately enters [Golden Desire] state upon entering battle. Using [Ice Star] can refresh [Golden Desire] duration. [Golden Desire] AoE damage increases from 60% → 80% of normal attack damage."
+      },
+      {
+        "level": 3,
+        "effect": "[Basic Attack], [Auto Skill], [Ultimate Skill], and [Passive] levels & max levels +2."
+      },
+      {
+        "level": 4,
+        "effect": "All ice damage +30%."
+      },
+      {
+        "level": 5,
+        "effect": "[Basic Attack], [Auto Skill], [Ultimate Skill], and [Passive] levels & max levels +2."
+      },
+      {
+        "level": 6,
+        "effect": "Normal attacks penetrate 20% ice resistance. After 10 normal attacks/skills, automatically deal 100% attack power as ice damage to target and enemies within 3m range."
+      }
+    ],
+    "memoryCard": {
+      "name": "Slave's Original Wish (奴仆的原愿)",
+      "image": "Freyacard",
+      "stats": {
+        "hp": "5,040",
+        "attack": "780",
+        "defense": "474"
+      },
+      "effects": [
+        "Critical Damage increased by 72%",
+        "For each enemy on the battlefield: Normal attack damage increases by 12% Maximum stacks: 4 (up to 48% bonus normal attack damage)"
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "name": "Hela",
+    "slug": "hela",
+    "rarity": "SSR",
+    "element": "Chaos",
+    "class": "Rogue",
+    "role": "DPS",
+    "faction": "A.S.A",
+    "tags": [
+      "Enhanced Ultimate",
+      "Mode Switch",
+      "Crit Damage",
+      "Crit Rate",
+      "Ranged",
+      "Melee"
+    ],
+    "image": "/images/games/zone-nova/characters/Hela.jpg",
+    "detailUrl": "/guides/zone-nova/characters/hela",
+    "stats": {
+      "hp": 7308,
+      "attack": 1193,
+      "defense": 474,
+      "energyRecovery": 0.25,
+      "critRate": 16.8,
+      "critDmg": 71.6
+    },
+    "skills": {
+      "normal": {
+        "name": "Nether Touch",
+        "chineseName": "冥界之触",
+        "level": "14",
+        "cooldown": "2.0s",
+        "description": "[Termination] Mode: Deals 120% attack power Chaos damage to designated enemy unit\n[Death Silence] Mode: Moves in front of the enemy unit with the highest ATK and deals 120% attack power Chaos damage to them"
+      },
+      "auto": {
+        "name": "Death Silence Prelude",
+        "chineseName": "死神序曲",
+        "level": "14",
+        "cooldown": "5.0s",
+        "description": "[Termination] Mode: Deals 360% attack power Chaos damage to designated enemy unit\n[Death Silence] Mode: Moves 5 meters toward the enemy unit with the highest ATK and deals 360% attack power Chaos damage to them"
+      },
+      "ultimate": {
+        "name": "Domination Authority - Chaotic Death",
+        "chineseName": "支配权能-混沌之死",
+        "level": "14",
+        "cooldown": "1.0s",
+        "energyCost": "1",
+        "description": "Enters [Termination] mode at the start of battle. Ultimate can switch between [Termination] or [Death Silence] modes. Switching modes changes all skills.\n\n[Passive Mechanic]: When allies cast their ultimates, Hela gains layers of [Domination Authority: Chaotic Death] equal to the energy consumed (max 5 layers per cast). Upon reaching 10 layers, can consume all layers to cast [Enhanced Ultimate], then reaccumulates layers after switching modes.\n\n[Enhanced Ultimate]:\n[Termination] Mode: Deals 2160% attack power Chaos damage to a specified enemy unit\n[Death Silence] Mode: Moves in front of the enemy with the highest ATK and continuously attacks them, dealing a total of 2160% attack power Chaos damage"
+      },
+      "passive": {
+        "name": "Termination Echo",
+        "chineseName": "终焉回响",
+        "level": "14",
+        "description": "[Termination] Mode: All damage penetrates 24% of the target's resistance\n[Death Silence] Mode: All damage reduces the target's total damage output by 36%\n\n[Battle Start Bonus]: If there is at least 1 other Chaos attribute character in the team besides Hela, Hela's Crit Damage increases by 60%"
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "chineseName": "组合技",
+      "level": "1",
+      "description": "ATK increases by 10%. At the start of battle, for every 500 ATK, increases own Chaos damage by 5% (max 6 stacks, up to 30% Chaos damage bonus)",
+      "requirements": {
+        "faction": "A.S.A",
+        "element": "Chaos",
+        "condition": "2 [Chaos] attribute characters and [A.S.A] characters"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "After battle starts, ATK increases by 30%. When switching modes, damage taken is reduced by 50%"
+      },
+      {
+        "level": 2,
+        "effect": "[Termination] Mode: Crit Damage increases by 30%. [Death Silence] Mode: Damage taken is reduced by 20%"
+      },
+      {
+        "level": 3,
+        "effect": "[Basic Attack], [Skill], [Ultimate] and [Passive] level and level cap +2"
+      },
+      {
+        "level": 4,
+        "effect": "Chaos damage increases by 30%"
+      },
+      {
+        "level": 5,
+        "effect": "[Basic Attack], [Skill], [Ultimate] and [Passive] level and level cap +2"
+      },
+      {
+        "level": 6,
+        "effect": "All damage dealt by Hela penetrates 20% of all resistances"
+      }
+    ],
+    "memoryCard": {
+      "name": "Strange Gaze Full of Desire",
+      "chineseName": "充满欲望的奇怪凝视",
+      "image": "Helacard",
+      "level": "80/80",
+      "rarity": "6-star (SSR)",
+      "class": "Rogue",
+      "stats": {
+        "hp": "5,040",
+        "attack": "780",
+        "defense": "474"
+      },
+      "effects": [
+        "Crit Rate increases by 34%",
+        "When other allies cast their ultimates, the wearer's damage dealt increases by 24% for 5 seconds (max 3 stacks, up to 72% bonus damage)"
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "name": "Jorogumo",
+    "slug": "jorogumo",
+    "rarity": "SSR",
+    "element": "Chaos",
+    "class": "Healer",
+    "role": "Healer",
+    "faction": "Pingjing City",
+    "tags": [
+      "Healing",
+      "Ranged",
+      "AOE Healing",
+      "Shield"
+    ],
+    "image": "/images/games/zone-nova/characters/Jorogumo.jpg",
+    "detailUrl": "/guides/zone-nova/characters/jorogumo",
+    "stats": {
+      "hp": 9180,
+      "attack": 1004,
+      "defense": 728,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Eclipse Silk",
+        "chineseName": "日蚀丝",
+        "level": "10+4",
+        "cooldown": "2.0s",
+        "description": "Deals 120% ATK Chaos Damage to a target enemy."
+      },
+      "auto": {
+        "name": "Blooming Sweet Rain",
+        "chineseName": "甘露绽放",
+        "level": "10+4",
+        "cooldown": "3.0s",
+        "description": "The friendly unit with the lowest current health percentage gains a continuous health regeneration of 20.4% + 440 of its own attack power for 3 seconds; during the continuous regeneration, gain 10% all resistance."
+      },
+      "ultimate": {
+        "name": "Umbrella Blossom",
+        "chineseName": "伞花绽放",
+        "level": "10+4",
+        "cooldown": "1.0s",
+        "energyCost": "2",
+        "description": "After a short casting time, a healing area with a range of 5 is created, restoring the caster's attack power by 46% + 243 HP per second for 5 seconds. Allied characters within the area gain 1 stack of [Umbrella Blossom], up to a maximum of 5 stacks."
+      },
+      "passive": {
+        "name": "Umbrella Heal",
+        "chineseName": "伞花治愈",
+        "level": "10+4",
+        "description": "After an ally is attacked, if HP is below 30%, consume 1 stack of [Umbrella Flower] to gain 3 rapid heals of 15.1% Max HP within 1 second. The first 2 times gain 6 rapid heals."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "chineseName": "组合技",
+      "level": "1",
+      "description": "At the start of combat, healing is increased by 5% for every 500 attack power, up to 6 times. Self-generated energy gain efficiency is increased by 10%.",
+      "requirements": {
+        "faction": "Pingjing City",
+        "element": "Chaos",
+        "condition": "2 [Pingjing City (平京城)] or 2 [Chaos] characters"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Ultimate range increased to 7."
+      },
+      {
+        "level": 2,
+        "effect": "Immediately activates Ultimate without cost upon entering battle. After using Ultimate, gain [Umbrella Protection]: Allies' non-Dark resistance increased by 40%, enemy damage reduced by 12.5% (lasts 5 seconds)."
+      },
+      {
+        "level": 3,
+        "effect": "[Basic Attack], [Skill], [Ultimate Skill] and [Passive] level and level cap +2."
+      },
+      {
+        "level": 4,
+        "effect": "Healing increased by 45%."
+      },
+      {
+        "level": 5,
+        "effect": "[Basic Attack], [Skill], [Ultimate Skill] and [Passive] level and level cap +2."
+      },
+      {
+        "level": 6,
+        "effect": "[Umbrella Healing+] The passive effect is added once for the first two activations, and also grants a shield equal to 50% of Jorogumo's maximum HP."
+      }
+    ],
+    "memoryCard": {
+      "name": "Beautiful Moon",
+      "chineseName": "美丽月亮",
+      "image": "Jorogumocard",
+      "level": "80/80",
+      "stats": {
+        "hp": "6,000",
+        "attack": "600",
+        "defense": "600"
+      },
+      "effects": [
+        "Healing increased by 35%.",
+        "When healing a target with 'Continuous Damage' status, healing is increased by an additional 25%.",
+        "If target HP is below 50%, grant continuous healing effect, restoring 9% of caster's ATK as HP per second for 3 seconds, max 1 stack."
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "name": "Shuten-doji",
+    "slug": "shuten-doji",
+    "rarity": "SSR",
+    "element": "Wind",
+    "class": "Mage",
+    "role": "DPS",
+    "faction": "Pingjing City",
+    "tags": [
+      "DOT",
+      "Debuff",
+      "Ranged",
+      "AOE",
+      "Penetration"
+    ],
+    "image": "/images/games/zone-nova/characters/Shuten-doji.jpg",
+    "detailUrl": "/guides/zone-nova/characters/shuten-doji",
+    "stats": {
+      "hp": 7711,
+      "attack": 1305,
+      "defense": 474,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Storm Cannon",
+        "level": "10+4",
+        "cooldown": "2.0s",
+        "description": "Deals 72.9% attack power as wind damage to the designated enemy unit and nearby enemy units."
+      },
+      "auto": {
+        "name": "Piercing Gun",
+        "level": "10+4",
+        "cooldown": "5.0s",
+        "description": "Targeting a designated enemy unit, deals 121.5% attack power as wind damage to a rectangular area in front of the target and inflicts 1 stack of [Wind Evil], lasting 10 seconds. Wind Evil: Deals 24.3% attack power as wind damage per second, stacking up to 4 times, lasting 10 seconds."
+      },
+      "ultimate": {
+        "name": "Scattered Flower Gun",
+        "level": "10+4",
+        "energyCost": "2",
+        "cooldown": "1.0s",
+        "description": "Deals 244.3% attack power as wind damage to the designated enemy unit and nearby enemies. When the target has full stacks of [Wind Evil], additionally inflicts [Evil Bone]. If the target has less than 4 stacks of [Wind Evil], then 1 stack of [Wind Evil] will be applied. Evil Bone: Deals 221.5% attack power as wind damage per second, up to 1 stack, lasting 5 seconds."
+      },
+      "passive": {
+        "name": "Those who obey me live",
+        "level": "10+4",
+        "description": "When dealing damage: If the opponent has the [Wind Evil] or [Evil Bone] effect, Shuten-doji's damage dealt to them increases by 62.9%. When taking damage: If the opponent has the [Wind Evil] or [Evil Bone] effect, damage dealt to Shuten-doji decreases by 48.6%."
+      }
+    },
+    "teamSkill": {
+      "name": "Combo Skill",
+      "level": "1",
+      "description": "Attack power increased by 15%. At the start of battle, every 500 attack power increases damage over time by 7%, up to a maximum of 10 times.",
+      "requirements": {
+        "faction": "Pingjing City",
+        "element": "Wind",
+        "alternativeRequirement": "2 [Pingjing City] characters or 2 [Wind] characters"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "At the start of battle, the first use of an Ultimate skill does not consume energy. Each time a character skill is used, it can apply 2 stacks of [Wind Evil]. After each use of a character skill, damage taken is reduced by 30% for 3 seconds."
+      },
+      {
+        "level": 2,
+        "effect": "Upon entering the battlefield, immediately deal 160% attack power as wind damage to all enemies and apply 2 stacks of [Wind Evil]. At the same time, all allies gain 50% [Block] for 10 seconds."
+      },
+      {
+        "level": 3,
+        "effect": "[Normal Attack], [Skill], [ULT] and [Passive] level and level cap +2."
+      },
+      {
+        "level": 4,
+        "effect": "Wind damage increased by 30%."
+      },
+      {
+        "level": 5,
+        "effect": "[Normal Attack], [Skill], [ULT] and [Passive] level and level cap +2."
+      },
+      {
+        "level": 6,
+        "effect": "All damage dealt by Shuten-doji ignores 25% of the target's elemental resistance."
+      }
+    ],
+    "memoryCard": {
+      "name": "Unreserved Love",
+      "image": "Shuten-dojicard",
+      "stats": {
+        "hp": "5,040",
+        "attack": "780",
+        "defense": "474"
+      },
+      "effects": [
+        "Attack power increased by 40%",
+        "Damage over time increased by 40%",
+        "When dealing damage over time, the enemy takes 24% more damage for 3 seconds",
+        "Damage dealt to enemies with shields is increased by 35%"
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "name": "Tamamo-no-Mae",
+    "slug": "tamamo-no-mae",
+    "rarity": "SSR",
+    "element": "Fire",
+    "class": "Buffer",
+    "role": "Buffer",
+    "faction": "Pingjing City",
+    "tags": [
+      "Ranged",
+      "Buff",
+      "Energy Recovery",
+      "Ultimate Damage Amp",
+      "Defense Penetration"
+    ],
+    "image": "/images/games/zone-nova/characters/Tamamo-no-mae.jpg",
+    "detailUrl": "/guides/zone-nova/characters/tamamo-no-mae",
+    "stats": {
+      "hp": 9180,
+      "attack": 1004,
+      "defense": 729,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Crimson Blade Dance",
+        "cooldown": "2.0s",
+        "description": "Deals 120% ATK as Fire DMG to a target enemy."
+      },
+      "auto": {
+        "name": "Bewitching Fire",
+        "cooldown": "5.0s",
+        "description": "Deals 141.5% ATK as Fire DMG to a target enemy and gains 1 stack of [Fox Flame] (max 9 stacks). Restores 1 Energy for every 2 Skills used.",
+        "buffs": [
+          {
+            "name": "Fox Flame",
+            "description": "Each stack increases self Energy Recovery Rate by 3% and reduces damage taken by all allies by 3.8%. Max 9 stacks."
+          }
+        ]
+      },
+      "ultimate": {
+        "name": "Authority: Myriad Brilliance",
+        "energyCost": "4",
+        "cooldown": "12.0s",
+        "description": "After a short delay, recover 3 Energy. Increases all allies' Ultimate DMG by 29.3% and ignores 40.5% Fire Resistance for 5s (cannot stack). Consumes all [Fox Flame]. Each consumed stack of [Fox Flame] further increases Ultimate DMG bonus by 5.6% and Ignore Resistance by 5.6%, and extends duration by 1s. Each consumed stack of [Fox Flame] deals 58.6% ATK as Fire DMG to a random enemy and applies [Jade Fox Mark] for 5s. If 9 stacks of [Fox Flame] are consumed, additionally deploys [Hyakki Kitan] for 10s. During this period, allies recover 1 Energy after using Ultimate (max once every 0.1s).",
+        "buffs": [
+          {
+            "name": "Jade Fox Mark",
+            "description": "When allies' Ultimate hits the holder, DEF Penetration +103.8%. Consumed after triggering."
+          }
+        ]
+      },
+      "passive": {
+        "name": "Hyakki Kitan",
+        "description": "When other allies use Ultimate, gain 1 stack of [Fox Flame] (max 9 stacks). Each stack of [Fox Flame] increases self Energy Recovery Rate by 3% and reduces damage taken by all allies by 3.8%. During [Hyakki Kitan], apply 2 stacks of [Ten Ghost Marks] to enemies hit by Ultimate. [Ten Ghost Marks]: At 10 stacks, consume 10 stacks to deal 214.4% ATK Blaze DMG in a fan-shaped area behind the target and apply [Jade Fox Mark] (5s). All [Ten Ghost Marks] vanish when [Hyakki Kitan] ends. [Jade Fox Mark]: When allies' Ultimate hits the holder, DEF Penetration +103.8%. Consumed after triggering."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "At the start of battle, all allies' DMG +10%; for every 500 ATK, all allies' Ultimate DMG +7.5% (max 6 stacks).",
+      "requirements": {
+        "faction": "Pingjing City",
+        "element": "Fire",
+        "alternativeRequirement": "2 Pingjing City OR 2 Fire characters"
+      }
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "Immediately gain 9 stacks of [Fox Flame] at the start of battle."
+      },
+      {
+        "level": 2,
+        "effect": "When [Hyakki Kitan] ends, recover [Fox Flame] based on [Ten Ghost Marks] accumulated: recover 2 stacks of [Fox Flame] for every 10 stacks accumulated (max 6 stacks)."
+      },
+      {
+        "level": 3,
+        "effect": "[Normal Attack], [Skill], [ULT] and [Passive] level and level cap +2."
+      },
+      {
+        "level": 4,
+        "effect": "During [Hyakki Kitan], allies' Resistance to non-Fire DMG increases by 56.5%."
+      },
+      {
+        "level": 5,
+        "effect": "[Normal Attack], [Skill], [ULT] and [Passive] level and level cap +2."
+      },
+      {
+        "level": 6,
+        "effect": "During [Hyakki Kitan], when allies' Ultimate hits an enemy, apply an additional 1 stack of [Ten Ghost Marks]. Each stack of [Fox Flame] additionally increases all allies' DEF by 5%."
+      }
+    ],
+    "memoryCard": {
+      "name": "Hot Spring & Her",
+      "image": "Tamamo-no-maecard",
+      "stats": {
+        "hp": "6,000",
+        "attack": "600",
+        "defense": "600"
+      },
+      "effects": [
+        "Base Stats Boost: ATK +40%",
+        "After allies' Ultimate deals DMG, increases self Energy Recovery Rate by 200% (4s) and gains 1 stack of [Brilliance] (5s, max 50 stacks)",
+        "Every 5 stacks of [Brilliance] increases all allies' DMG by 9%"
+      ],
+      "restriction": "This memory card is restricted to Supporter class characters only."
+    }
+  },
+  {
+    "id": 49,
+    "name": "Pride-Lucifer",
+    "slug": "pride-lucifer",
+    "rarity": "SSR",
+    "element": "Chaos",
+    "class": "Warrior",
+    "role": "DPS",
+    "faction": "Bicta Tower",
+    "tags": [
+      "Shield",
+      "Defense Scaling",
+      "Team Buff",
+      "Enhanced Ultimate",
+      "Chaos",
+      "Warrior",
+      "SSR"
+    ],
+    "image": "/images/games/zone-nova/characters/Lucifer.jpg",
+    "detailUrl": "/guides/zone-nova/characters/pride-lucifer",
+    "stats": {
+      "hp": 11048,
+      "attack": 696,
+      "defense": 1117,
+      "energyRecovery": 0.25,
+      "critRate": 0,
+      "critDmg": 50
+    },
+    "skills": {
+      "normal": {
+        "name": "Dawn Slash",
+        "cooldown": "1.5s",
+        "description": "Deals chaos damage equal to 120% of the user's own defense to the designated enemy unit."
+      },
+      "auto": {
+        "name": "Perfect Suppression",
+        "cooldown": "5.0s",
+        "description": "Deals chaos damage equal to 632.9% of the target's defense, gains 1 stack of [Pride], and gains a shield equal to 97.2% of the target's defense."
+      },
+      "ultimate": {
+        "name": "The End of Pain",
+        "cooldown": "1.0s",
+        "energyCost": "3",
+        "description": "All allied characters gain [Armour of Pride]: Grants a shield equal to Lucifer's defense 388.6% and reduces damage taken by 48.6% for 10 seconds. While Lucifer possesses [Armour of Pride], her ultimate skill becomes an enhanced ultimate skill.\n\nEnhanced Ultimate Skill: Consumes 2 energy. Grants all allied characters a shield equal to 510.1% of their defense and reduces damage taken by 58.6% for 5 seconds. Unleashes a dimensional slash at the target location, dealing chaos damage equal to the user's defense 832.9% to all enemy units.\n\nNote: The damage reduction effects of the ultimate skill and the enhanced ultimate skill do not stack.",
+        "enhancedUltimate": {
+          "description": "Consumes 2 energy. Grants all allied characters a shield equal to 510.1% of their defense and reduces damage taken by 58.6% for 5 seconds. Unleashes a dimensional slash at the target location, dealing chaos damage equal to the user's defense 832.9% to all enemy units."
+        }
+      },
+      "passive": {
+        "name": "No need to say more",
+        "description": "Each time Lucifer uses a skill, she gains 1 stack of [Pride], increasing her defense by 11.5%, up to a maximum of 8 stacks, lasting until the end of the battle."
+      }
+    },
+    "teamSkill": {
+      "name": "Combination Skill",
+      "description": "Defense increased by 10%, HP increased by 10%. At the start of battle, every 500 defense reduces damage taken by the entire team by 1.5%, up to 8 times.",
+      "requirements": {
+        "faction": "Bicta Tower",
+        "element": "Chaos"
+      },
+      "activationCondition": "Team contains 2 【Bicta Tower】 characters OR 2 【Chaos】 characters"
+    },
+    "awakenings": [
+      {
+        "level": 1,
+        "effect": "At the start of battle, all allies gain the [Arrogance of Pride] effect."
+      },
+      {
+        "level": 2,
+        "effect": "After Pride-Lucifer uses her ultimate skill, all allies gain the Blessing of Pride, which restores all allies' maximum HP equal to 1% of their maximum HP + 150 HP per second for 5 seconds after they take damage. The Blessing of Pride will be consumed upon activation."
+      },
+      {
+        "level": 3,
+        "effect": "[Normal Attack], [Skill], [Ultimate] and [Passive] level and level cap +2."
+      },
+      {
+        "level": 4,
+        "effect": "Defense increased by 50%"
+      },
+      {
+        "level": 5,
+        "effect": "[Normal Attack], [Skill], [Ultimate] and [Passive] level and level cap +2."
+      },
+      {
+        "level": 6,
+        "effect": "Increases all resistances by 20%, chaos resistance by an additional 20%, and grants 4 stacks of Pride upon entering the arena."
+      }
+    ],
+    "memoryCard": {
+      "name": "Pride or Tsundere?",
+      "image": "lucifercard",
+      "title": "Pride or Tsundere?",
+      "level": "80/80",
+      "rarity": "6-star (SSR)",
+      "class": "Warrior",
+      "stats": {
+        "hp": "6,600",
+        "attack": "480",
+        "defense": "690"
+      },
+      "effects": [
+        "HP increased by 32%",
+        "Defense increased by 60%",
+        "When attacked by a normal attack, damage taken is reduced by 30%"
+      ]
+    }
+  }
+]
