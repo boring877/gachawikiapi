@@ -10,7 +10,7 @@ pub struct CharacterStats {
     pub defense: u32,
     pub energyRecovery: f32,
     pub critRate: f32,
-    pub critDmg: u32,
+    pub critDmg: f32,
 }
 
 #[derive(Serialize, Deserialize)]

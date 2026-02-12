@@ -1124,9 +1124,9 @@
       "name": "Lamplight Study",
       "image": "Freyecard",
       "stats": {
-        "hp": 6000,
-        "attack": 600,
-        "defense": 600
+        "hp": "6,000",
+        "attack": "600",
+        "defense": "600"
       },
       "effects": [
         "Attack power increased by 40%",
